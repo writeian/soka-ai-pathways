@@ -44,9 +44,9 @@
         "why": "Institutional and ethical dilemmas of AI bans."
       },
       {
-        "label": "arXiv (2023) — Contra Generative AI Detection",
-        "url": "https://arxiv.org/abs/2312.05241",
-        "why": "Technical analysis of why AI detection tools are unreliable."
+        "label": "PeerJ Computer Science (2025) — AI Detection Accuracy-Bias Trade-offs",
+        "url": "https://peerj.com/articles/cs-2953/",
+        "why": "Empirical study showing AI detectors disproportionately affect non-native English speakers."
       },
       {
         "label": "SUA Academic Honesty Policy",
