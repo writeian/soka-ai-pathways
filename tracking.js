@@ -3,6 +3,7 @@ class UserTracker {
   constructor() {
     this.storageKey = 'soka-ai-pathways-user';
     this.journeyKey = 'soka-ai-pathways-journey';
+    this.webhookUrl = 'https://script.google.com/macros/s/AKfycbxPlg3R1vvv8Dv2V3GXvmI4lepfRDSKGYENWUy3S3JkLH0YnUnnoXSopynVc1YlUws/exec';
     this.initUser();
   }
 
@@ -43,6 +44,34 @@ class UserTracker {
     };
     journey.push(visit);
     localStorage.setItem(this.journeyKey, JSON.stringify(journey));
+    
+    // Send to Google Sheets (async, don't block UI)
+    this.sendToSheet(nodeId, nodePath, nodeTitle);
+  }
+
+  async sendToSheet(nodeId, nodePath, nodeTitle) {
+    const user = this.getUser();
+    
+    try {
+      await fetch(this.webhookUrl, {
+        method: 'POST',
+        mode: 'no-cors', // Required for Google Apps Script
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          userId: user.id,
+          userName: user.name || 'Anonymous',
+          nodeId,
+          nodePath,
+          nodeTitle,
+          sessionStart: user.startTime
+        })
+      });
+    } catch (error) {
+      // Silently fail - don't interrupt user experience
+      console.log('Analytics error (non-critical):', error);
+    }
   }
 
   getJourney() {
