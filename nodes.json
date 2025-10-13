@@ -183,11 +183,6 @@
         "label": "UNESCO (2023) — Guidance for GenAI in Education",
         "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
         "why": "Global ethical principles for human-centered AI integration."
-      },
-      {
-        "label": "Soka University Mission Statement",
-        "url": "https://www.soka.edu/about-soka/mission-vision",
-        "why": "Frames AI use as developing global citizens."
       }
     ],
     "choices": [
@@ -267,11 +262,6 @@
     "narrative": "By term's end, students submit reflective essays describing how AI shaped their thinking. Most express gratitude for being trusted to decide responsibly. A few still wish for simpler rules, but many highlight new awareness: \"I learned not just what AI can do — but what I can do with it.\" You guide them to name which SUA values their choices advanced: humanism, culture, pacifism, or contributive lives. You sense the course has fostered something deeper than compliance: wisdom linked to mission.",
     "resources": [
       {
-        "label": "Soka University Mission Statement",
-        "url": "https://www.soka.edu/about-soka/mission-vision",
-        "why": "Connects ethical literacy and dialogue-driven outcomes to contributive life."
-      },
-      {
         "label": "Wageningen University — In AI We Trust?",
         "url": "https://research.wur.nl/en/publications/in-ai-we-trust-ethics-artificial-intelligence-and-reliability",
         "why": "Human judgment and wisdom must lead, not mere reliance on technology."
@@ -304,11 +294,6 @@
         "label": "EDUCAUSE Review (2025) — The AI Tsunami",
         "url": "https://er.educause.edu/articles/2025/9/the-ai-tsunami-is-here-reinventing-education-for-the-age-of-ai",
         "why": "Shift to human-centered approach fostering collaboration and creativity with AI."
-      },
-      {
-        "label": "Soka University Mission Statement",
-        "url": "https://www.soka.edu/about-soka/mission-vision",
-        "why": "Links creative redesign to wisdom and global citizenship."
       }
     ],
     "choices": [
@@ -401,11 +386,6 @@
         "label": "EDUCAUSE Review (2025) — Ethics Is the Edge",
         "url": "https://er.educause.edu/articles/2025/6/ethics-is-the-edge-the-future-of-ai-in-higher-education",
         "why": "Ethical imperative for governance aligning AI with academic values."
-      },
-      {
-        "label": "Soka University Mission Statement",
-        "url": "https://www.soka.edu/about-soka/mission-vision",
-        "why": "Connects authentic learning to wisdom, courage, and compassion."
       }
     ],
     "choices": [
@@ -435,11 +415,6 @@
         "label": "UNESCO (2023) — Guidance for GenAI",
         "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
         "why": "Human-centered vision for GenAI in education."
-      },
-      {
-        "label": "Soka University Mission Statement",
-        "url": "https://www.soka.edu/about-soka/mission-vision",
-        "why": "Frames education as dialogical and humanistic."
       }
     ],
     "choices": [
@@ -537,11 +512,6 @@
         "label": "OECD — AI and Education and Skills",
         "url": "https://www.oecd.org/en/topics/artificial-intelligence-and-education-and-skills.html",
         "why": "Analysis of AI impact on learning and skills, linking collaboration to equity."
-      },
-      {
-        "label": "Soka University Mission Statement",
-        "url": "https://www.soka.edu/about-soka/mission-vision",
-        "why": "Connects dialogue-centered pedagogy to fostering global citizens."
       }
     ],
     "choices": [
