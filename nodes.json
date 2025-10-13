@@ -1,0 +1,518 @@
+{
+  "D1": {
+    "id": "D1",
+    "path": "shared",
+    "pathLabel": "Shared Start",
+    "title": "Designing a New Course in the AI Era",
+    "narrative": "You are preparing a new course at Soka University of America. Students already use AI for brainstorming, translation, and writing. Which stance will guide your design?",
+    "resources": [
+      {
+        "label": "Soka University Mission",
+        "url": "https://www.soka.edu/about/mission",
+        "why": "Ground course goals in SUA\u2019s mission."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Prohibitive \u2014 Ban AI",
+        "to": "P1"
+      },
+      {
+        "label": "Balanced / Literacy \u2014 Teach ethical use",
+        "to": "B1"
+      },
+      {
+        "label": "AI\u2011Embracing \u2014 Redesign for creativity",
+        "to": "E1"
+      },
+      {
+        "label": "Collaborative \u2014 Co\u2011learn with students",
+        "to": "C1"
+      }
+    ]
+  },
+  "P1": {
+    "id": "P1",
+    "path": "prohibitive",
+    "pathLabel": "Prohibitive",
+    "title": "Setting the Boundary",
+    "narrative": "You set a policy: AI\u2011generated text is not permitted on assignments. A student asks if translation tools count.",
+    "resources": [
+      {
+        "label": "HEPI Policy Note 61 (2025) \u2014 Outsourcing Pipeline",
+        "url": "https://www.hepi.ac.uk/2025/03/12/the-outsourcing-pipeline",
+        "why": "Limits of detection; policy trade\u2011offs."
+      },
+      {
+        "label": "SUA Academic Integrity Policy",
+        "url": "https://catalog.soka.edu/academic-integrity",
+        "why": "Institutional grounding."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Maintain the ban",
+        "to": "P2A"
+      },
+      {
+        "label": "Clarify exceptions (switch to Balanced)",
+        "to": "B1"
+      }
+    ]
+  },
+  "P2A": {
+    "id": "P2A",
+    "path": "prohibitive",
+    "pathLabel": "Prohibitive",
+    "title": "The Translation Question",
+    "narrative": "A multilingual student uses AI only to translate readings. Participation dips as uncertainty grows.",
+    "resources": [
+      {
+        "label": "TESOL Quarterly (2024) \u2014 AI Translation & Equity",
+        "url": "https://onlinelibrary.wiley.com/journal/15457249",
+        "why": "Impacts on multilingual learners."
+      },
+      {
+        "label": "NASEM (2023) \u2014 Ethics of AI in Education",
+        "url": "https://nap.nationalacademies.org/catalog/27019",
+        "why": "Language & fairness."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Hold firm",
+        "to": "P3A"
+      },
+      {
+        "label": "Reconsider inclusion (switch to Balanced)",
+        "to": "B2A"
+      }
+    ]
+  },
+  "P3A": {
+    "id": "P3A",
+    "path": "prohibitive",
+    "pathLabel": "Prohibitive",
+    "title": "The Enforcement Semester",
+    "narrative": "Detection and reporting take time. A false positive strains trust. Compliance rises; curiosity drops.",
+    "resources": [
+      {
+        "label": "Inside Higher Ed (2024) \u2014 False AI Accusations",
+        "url": "https://www.insidehighered.com/news/2024/02/13/faculty-fallout-false-ai-accusations",
+        "why": "Trust & due process."
+      },
+      {
+        "label": "EDUCAUSE Review (2024) \u2014 Integrity and Care",
+        "url": "https://er.educause.edu/articles/2024/01/integrity-and-care",
+        "why": "Relational approaches to integrity."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Stay the course",
+        "to": "P4"
+      },
+      {
+        "label": "Revisit purpose (switch to Collaborative)",
+        "to": "C1"
+      }
+    ]
+  },
+  "P4": {
+    "id": "P4",
+    "path": "prohibitive",
+    "pathLabel": "Prohibitive",
+    "title": "Outcome: Integrity Preserved, Dialogue Lost?",
+    "narrative": "Records show compliance. Course climate feels tense. Did control achieve the learning it sought to protect?",
+    "resources": [
+      {
+        "label": "Harvard GSE \u2014 Teaching for Trust in the Age of AI",
+        "url": "https://www.gse.harvard.edu/news/teaching-trust-ai",
+        "why": "Rebuilding trust & dialogue."
+      },
+      {
+        "label": "SUA Mission",
+        "url": "https://www.soka.edu/about/mission",
+        "why": "Reconnect outcome to mission."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Meta\u2011Reflection",
+        "to": "R1"
+      },
+      {
+        "label": "Restart",
+        "to": "D1"
+      }
+    ]
+  },
+  "B1": {
+    "id": "B1",
+    "path": "balanced",
+    "pathLabel": "Balanced / Literacy",
+    "title": "Designing the New Course",
+    "narrative": "You add a unit on Responsible AI Use. Students will write with and without AI and compare processes.",
+    "resources": [
+      {
+        "label": "EDUCAUSE (2025) \u2014 Establishing AI Literacy",
+        "url": "https://er.educause.edu/articles/2025/02/establishing-ai-literacy",
+        "why": "Curricular framing."
+      },
+      {
+        "label": "UNESCO (2023) \u2014 Guidance for GenAI in Education",
+        "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386740",
+        "why": "Global ethical principles."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Create guidance & goals",
+        "to": "B2A"
+      },
+      {
+        "label": "Deeper redesign (switch to Embracing)",
+        "to": "E1"
+      }
+    ]
+  },
+  "B2A": {
+    "id": "B2A",
+    "path": "balanced",
+    "pathLabel": "Balanced / Literacy",
+    "title": "Ethical AI Workshops",
+    "narrative": "Students bring AI output and their own writing. Discussion surfaces bias, substitution, and judgment.",
+    "resources": [
+      {
+        "label": "EDUCAUSE Review (2024) \u2014 Teaching AI Literacy & Ethics",
+        "url": "https://er.educause.edu/articles/2024/10/teaching-ai-literacy-and-ethics",
+        "why": "Classroom practices."
+      },
+      {
+        "label": "NASEM (2023) \u2014 Ethics of AI in Education",
+        "url": "https://nap.nationalacademies.org/catalog/27019",
+        "why": "Authoritative framework."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Formalize insights into policy",
+        "to": "B3A"
+      },
+      {
+        "label": "Open exploration (switch to Collaborative)",
+        "to": "C2A"
+      }
+    ]
+  },
+  "B3A": {
+    "id": "B3A",
+    "path": "balanced",
+    "pathLabel": "Balanced / Literacy",
+    "title": "Refining the Policy",
+    "narrative": "Class co\u2011creates an AI Use Agreement (cite AI, reflect on process). Clarity vs. nuance becomes ongoing work.",
+    "resources": [
+      {
+        "label": "Inside Higher Ed (2024) \u2014 Rethinking Integrity",
+        "url": "https://www.insidehighered.com/news/2024/03/05/faculty-rethink-integrity-ai",
+        "why": "Guidance-based policies."
+      },
+      {
+        "label": "HEPI (2025) \u2014 Student Attitudes toward AI",
+        "url": "https://www.hepi.ac.uk/2025/04/12/student-attitudes-toward-ai-use",
+        "why": "Transparency & self\u2011regulation."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Keep refining through dialogue",
+        "to": "B4"
+      },
+      {
+        "label": "Simplify & enforce (switch to Prohibitive)",
+        "to": "P2A"
+      }
+    ]
+  },
+  "B4": {
+    "id": "B4",
+    "path": "balanced",
+    "pathLabel": "Balanced / Literacy",
+    "title": "Outcome: Ethical Clarity Through Dialogue",
+    "narrative": "Students describe how AI shaped their thinking. Trust grows; some still want simpler rules.",
+    "resources": [
+      {
+        "label": "Harvard GSE \u2014 Reflective Judgment in AI\u2011Era Classrooms",
+        "url": "https://www.gse.harvard.edu/news/designing-reflective-judgment-ai-era",
+        "why": "Reflection as literacy."
+      },
+      {
+        "label": "OECD (2024) \u2014 AI & Future of Learning",
+        "url": "https://www.oecd.org/education/ai-and-future-learning-2024.htm",
+        "why": "Responsible integration."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Meta\u2011Reflection",
+        "to": "R1"
+      },
+      {
+        "label": "Restart",
+        "to": "D1"
+      }
+    ]
+  },
+  "E1": {
+    "id": "E1",
+    "path": "embracing",
+    "pathLabel": "AI\u2011Embracing",
+    "title": "Rethinking the Assignment",
+    "narrative": "You convert a major paper into an AI\u2011Reflection Portfolio: prompts, outputs, and what was learned.",
+    "resources": [
+      {
+        "label": "TEQSA (2025) \u2014 Assessment Redesign",
+        "url": "https://www.teqsa.gov.au/resources/assessment-redesign-ai",
+        "why": "Authentic, process\u2011based assessment."
+      },
+      {
+        "label": "EDUCAUSE Review (2024) \u2014 Beyond Integrity",
+        "url": "https://er.educause.edu/articles/2024/08/beyond-integrity-ai-learning",
+        "why": "Integrating AI as learning tool."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Implement the redesign",
+        "to": "E2A"
+      },
+      {
+        "label": "Scale back (switch to Balanced)",
+        "to": "B2A"
+      }
+    ]
+  },
+  "E2A": {
+    "id": "E2A",
+    "path": "embracing",
+    "pathLabel": "AI\u2011Embracing",
+    "title": "First Iteration",
+    "narrative": "Some reflections are deep; others over\u2011rely on AI. You model critical use and question assumptions.",
+    "resources": [
+      {
+        "label": "Inside Higher Ed (2024) \u2014 AI\u2011Assisted Drafting",
+        "url": "https://www.insidehighered.com/news/2024/04/22/faculty-innovate-ai-assisted-drafting",
+        "why": "Transparent AI integration."
+      },
+      {
+        "label": "UNESCO (2023) \u2014 GenAI in Education",
+        "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386740",
+        "why": "Human\u2011centered pedagogy."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Deepen design (rubrics & checkpoints)",
+        "to": "E3A"
+      },
+      {
+        "label": "Invite faculty feedback (switch to Collaborative)",
+        "to": "C3A"
+      }
+    ]
+  },
+  "E3A": {
+    "id": "E3A",
+    "path": "embracing",
+    "pathLabel": "AI\u2011Embracing",
+    "title": "The Assessment Challenge",
+    "narrative": "Grading portfolios is slower. New criteria center growth, insight, and self\u2011reflection.",
+    "resources": [
+      {
+        "label": "OECD (2024) \u2014 10 Guidelines",
+        "url": "https://www.oecd.org/education/ai-and-future-learning-2024.htm",
+        "why": "Assessment reform."
+      },
+      {
+        "label": "EDUCAUSE (2025) \u2014 Redefining Assessment",
+        "url": "https://er.educause.edu/articles/2025/01/redefining-assessment-authentic-learning",
+        "why": "Reflection\u2011focused rubrics."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Share outcomes in a forum",
+        "to": "E4"
+      },
+      {
+        "label": "Simplify (switch to Balanced)",
+        "to": "B3A"
+      }
+    ]
+  },
+  "E4": {
+    "id": "E4",
+    "path": "embracing",
+    "pathLabel": "AI\u2011Embracing",
+    "title": "Outcome: Innovation and Depth",
+    "narrative": "Students present honest, reflective projects. Authorship clarity improves; workload remains real.",
+    "resources": [
+      {
+        "label": "Inside Higher Ed (2025) \u2014 AI\u2011Ready Classroom",
+        "url": "https://www.insidehighered.com/opinion/2025/03/17/ai-ready-classroom",
+        "why": "Faculty reflections on redesign."
+      },
+      {
+        "label": "EDUCAUSE Review (2025) \u2014 Faculty Voices",
+        "url": "https://er.educause.edu/articles/2025/02/faculty-voices-authentic-ai-learning",
+        "why": "Authentic learning with AI."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Meta\u2011Reflection",
+        "to": "R1"
+      },
+      {
+        "label": "Restart",
+        "to": "D1"
+      }
+    ]
+  },
+  "C1": {
+    "id": "C1",
+    "path": "collaborative",
+    "pathLabel": "Collaborative",
+    "title": "Opening the Dialogue",
+    "narrative": "You invite students to co\u2011draft an AI Reflection Charter for transparency, curiosity, and respect.",
+    "resources": [
+      {
+        "label": "EDUCAUSE Review (2024) \u2014 Culture of AI Dialogue",
+        "url": "https://er.educause.edu/articles/2024/09/building-a-culture-of-ai-dialogue",
+        "why": "Participatory norms."
+      },
+      {
+        "label": "UNESCO (2023) \u2014 Guidance for GenAI",
+        "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386740",
+        "why": "Ethical participation."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Facilitate collective inquiry",
+        "to": "C2A"
+      },
+      {
+        "label": "Formalize limits (switch to Balanced)",
+        "to": "B2A"
+      }
+    ]
+  },
+  "C2A": {
+    "id": "C2A",
+    "path": "collaborative",
+    "pathLabel": "Collaborative",
+    "title": "Shared Experimentation",
+    "narrative": "Students keep AI learning logs and discuss when AI helps or hinders thinking; critique deepens.",
+    "resources": [
+      {
+        "label": "Inside Higher Ed (2024) \u2014 Co\u2011Created Frameworks",
+        "url": "https://www.insidehighered.com/news/2024/05/10/students-and-faculty-co-create-ai-frameworks",
+        "why": "Collaborative literacy."
+      },
+      {
+        "label": "EDUCAUSE (2025) \u2014 AI Learning Logs",
+        "url": "https://er.educause.edu/articles/2025/03/ai-learning-logs",
+        "why": "Transparency & reflection."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Continue the experiment",
+        "to": "C3A"
+      },
+      {
+        "label": "Standardize (switch to Balanced)",
+        "to": "B3A"
+      }
+    ]
+  },
+  "C3A": {
+    "id": "C3A",
+    "path": "collaborative",
+    "pathLabel": "Collaborative",
+    "title": "Faculty Learning Cluster",
+    "narrative": "Colleagues join a learning cluster. You share anonymized reflections; assessment norms are discussed.",
+    "resources": [
+      {
+        "label": "Harvard GSE \u2014 Faculty Learning Communities",
+        "url": "https://www.gse.harvard.edu/news/faculty-learning-communities-ai",
+        "why": "Peer collaboration."
+      },
+      {
+        "label": "EDUCAUSE (2025) \u2014 Faculty Learning Networks",
+        "url": "https://er.educause.edu/articles/2025/01/faculty-learning-networks-ai-innovation",
+        "why": "Scaling innovation."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Keep co\u2011learning focus",
+        "to": "C4"
+      },
+      {
+        "label": "Move toward formal policy (switch to Balanced)",
+        "to": "B4"
+      }
+    ]
+  },
+  "C4": {
+    "id": "C4",
+    "path": "collaborative",
+    "pathLabel": "Collaborative",
+    "title": "Outcome: Dialogue Becomes the Curriculum",
+    "narrative": "Students feel trusted and responsible. Model spreads; time demands remain a constraint.",
+    "resources": [
+      {
+        "label": "Inside Higher Ed (2025) \u2014 Dialogue as Curriculum",
+        "url": "https://www.insidehighered.com/opinion/2025/04/15/when-dialogue-becomes-curriculum",
+        "why": "Dialogic practice."
+      },
+      {
+        "label": "OECD (2024) \u2014 Collaborative Teaching Models",
+        "url": "https://www.oecd.org/education/ai-and-future-learning-2024.htm",
+        "why": "Equity & trust data."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Meta\u2011Reflection",
+        "to": "R1"
+      },
+      {
+        "label": "Restart",
+        "to": "D1"
+      }
+    ]
+  },
+  "R1": {
+    "id": "R1",
+    "path": "shared",
+    "pathLabel": "Meta\u2011Reflection",
+    "title": "Teaching for Value Creation in the AI Era",
+    "narrative": "Each approach surfaced trade\u2011offs: integrity, creativity, equity, trust, workload. Compare what you protected, what you risked, and what you discovered \u2014 and align next steps with SUA\u2019s mission to foster global citizens who live contributive lives.",
+    "resources": [
+      {
+        "label": "Soka University Mission",
+        "url": "https://www.soka.edu/about/mission",
+        "why": "Anchor choices in mission."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Restart from the Dilemma",
+        "to": "D1"
+      }
+    ]
+  }
+}
