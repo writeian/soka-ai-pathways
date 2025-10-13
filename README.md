@@ -70,7 +70,7 @@ All pathways include citations to:
 - Harvard Graduate School of Education
 - Inside Higher Ed & HEPI Reports
 - NASEM Ethics of AI in Education (2023)
-- Soka University Mission & CTLE Resources
+- Soka University Mission & Campus Faculty Supports
 
 ## Deploy to GitHub Pages
 
@@ -166,4 +166,4 @@ Faculty who complete the explorer will:
 
 ---
 
-**Questions or suggestions?** Open an issue or contact Soka CTLE.
+**Questions or suggestions?** Open an issue or connect via the Faculty Forum.

@@ -36,7 +36,7 @@
     "path": "prohibitive",
     "pathLabel": "Prohibitive",
     "title": "Setting the Boundary",
-    "narrative": "You draft your new course policy: \"AI-generated text is not permitted on any assignments.\" You tell students that true learning requires struggle — \"The effort to express one's own ideas builds understanding.\" Students nod, though one asks privately if translation tools count.",
+    "narrative": "You draft your new course policy: \"AI-generated text is not permitted on any assignments.\" You frame it as protecting academic honesty and human dignity, pointing to SUA's commitment to uphold human rights. Students nod, though one asks privately if translation tools count.",
     "resources": [
       {
         "label": "HEPI Policy Note 61 (2025) \u2014 Outsourcing Pipeline",
@@ -70,7 +70,7 @@
     "path": "prohibitive",
     "pathLabel": "Prohibitive",
     "title": "The Translation Question",
-    "narrative": "A multilingual student confides: \"I only use AI to translate readings so I can understand class discussion.\" You reaffirm your rule: each student should rely on their own effort to develop language skills. Participation drops, and you sense growing distance.",
+    "narrative": "A multilingual student confides: \"I only use AI to translate readings so I can understand class discussion.\" You reaffirm your rule: each student should rely on their own effort to develop language skills. You remind yourself the policy safeguards fairness, yet you wonder how it aligns with SUA's call to foster leaders of humanism. Participation drops, and you sense growing distance.",
     "resources": [
       {
         "label": "TESOL Quarterly (2024) \u2014 AI Translation & Equity",
@@ -99,7 +99,7 @@
     "path": "prohibitive",
     "pathLabel": "Prohibitive",
     "title": "The Enforcement Semester",
-    "narrative": "You implement AI detection software and restate strict consequences. Midterm, a false flag occurs — a student accused of AI use insists on innocence. The process consumes hours of investigation. Students stop visiting office hours; compliance rises, curiosity drops.",
+    "narrative": "You implement AI detection software and restate strict consequences. Midterm, a false flag occurs \u2014 a student accused of AI use insists on innocence. The process consumes hours of investigation alongside meetings with the Dean of Students about due-process and dignity. Students stop visiting office hours; compliance rises, curiosity drops.",
     "resources": [
       {
         "label": "Inside Higher Ed (2024) \u2014 False AI Accusations",
@@ -112,9 +112,9 @@
         "why": "Relational approaches to integrity."
       },
       {
-        "label": "Soka CTLE \u2014 Assessment & Academic Integrity",
-        "url": "https://www.soka.edu/academics/ctle",
-        "why": "Reflective, student\u2011centered approaches."
+        "label": "Undergraduate Writing Center \u2014 Academic Integrity Consultations",
+        "url": "https://www.soka.edu/academics/undergraduate-programs/writing-center",
+        "why": "Campus support for reflective integrity practices."
       }
     ],
     "choices": [
@@ -133,7 +133,7 @@
     "path": "prohibitive",
     "pathLabel": "Prohibitive",
     "title": "Outcome: Integrity Preserved, Dialogue Lost?",
-    "narrative": "Your records show near-perfect compliance. But course evaluations describe your class as \"serious, but tense.\" You reflect: integrity was upheld — yet engagement and empathy weakened. Has control achieved the learning it sought to protect?",
+    "narrative": "Your records show near-perfect compliance. But course evaluations describe your class as \"serious, but tense.\" You reflect: integrity was upheld \u2014 yet engagement and empathy weakened. Have your choices supported SUA's vision of graduates leading contributive lives?",
     "resources": [
       {
         "label": "Harvard GSE \u2014 Teaching for Trust in the Age of AI",
@@ -162,7 +162,7 @@
     "path": "balanced",
     "pathLabel": "Balanced / Literacy",
     "title": "Designing the New Course",
-    "narrative": "You're drafting a syllabus for a new interdisciplinary seminar at Soka University of America. You know that students are already using AI for translation, brainstorming, and writing support. Rather than ban it, you design a short unit on \"Responsible AI Use.\" Students will practice writing with and without AI, comparing their processes and reflecting on what they learn.",
+    "narrative": "You're drafting a syllabus for a new upper-level interdisciplinary seminar at Soka University of America. You know that students already use AI for translation, brainstorming, and writing support. Rather than ban it, you design a short unit on \"Responsible AI Use\" that ties directly to SUA's value of fostering leaders of humanism who can engage difference with empathy. Students will practice writing with and without AI, comparing their processes and reflecting on what they learn.",
     "resources": [
       {
         "label": "EDUCAUSE (2025) \u2014 Establishing AI Literacy",
@@ -196,7 +196,7 @@
     "path": "balanced",
     "pathLabel": "Balanced / Literacy",
     "title": "Ethical AI Workshops",
-    "narrative": "Week three. Students bring examples of AI output alongside their own writing. They identify what AI captures — and what it misses. Discussion turns lively: \"How do we know when AI's help becomes substitution?\" You realize they're not just learning writing — they're learning judgment.",
+    "narrative": "Week three. Students bring examples of AI output alongside their own writing. They identify what AI captures \u2014 and what it misses. Discussion turns lively: \"How do we know when AI's help becomes substitution?\" You surface SUA's mission and values, asking which uses cultivate leaders of culture in the community. You realize they're not just learning writing \u2014 they're learning judgment.",
     "resources": [
       {
         "label": "EDUCAUSE Review (2024) \u2014 Teaching AI Literacy & Ethics",
@@ -204,9 +204,9 @@
         "why": "Classroom practices."
       },
       {
-        "label": "Soka CTLE \u2014 Reflection\u2011Based Integrity Assignments",
-        "url": "https://www.soka.edu/academics/ctle",
-        "why": "Guidance on reflection\u2011based integrity."
+        "label": "Undergraduate Writing Center \u2014 Reflection-Based Integrity Assignments",
+        "url": "https://www.soka.edu/academics/undergraduate-programs/writing-center",
+        "why": "Campus guidance on reflective integrity tasks."
       },
       {
         "label": "NASEM (2023) \u2014 Ethics of AI in Education",
@@ -216,8 +216,8 @@
     ],
     "choices": [
       {
-        "label": "Formalize insights into policy",
-        "to": "B3A"
+        "label": "Facilitate a values-mapping workshop",
+        "to": "B2B"
       },
       {
         "label": "Open exploration (switch to Collaborative)",
@@ -230,7 +230,7 @@
     "path": "balanced",
     "pathLabel": "Balanced / Literacy",
     "title": "Refining the Policy",
-    "narrative": "Together, the class revises its \"AI Use Agreement.\" Students agree to cite AI assistance, reflect on their process, and take responsibility for final ideas. You notice improved confidence in weaker writers and fewer integrity concerns. Still, updating and clarifying the policy each semester takes time. Some colleagues worry: \"Won't this gray area confuse students?\"",
+    "narrative": "Together, the class revises its \"AI Use Agreement.\" Students agree to cite AI assistance, reflect on their process, and take responsibility for final ideas. You highlight alignment with SUA's aim to foster leaders of culture who act with integrity. You notice improved confidence in emerging writers and fewer integrity concerns. Still, updating and clarifying the policy each semester takes time. Some colleagues worry: \"Won't this gray area confuse students?\"",
     "resources": [
       {
         "label": "Inside Higher Ed (2024) \u2014 Rethinking Integrity",
@@ -243,9 +243,9 @@
         "why": "Transparency & self\u2011regulation."
       },
       {
-        "label": "Soka CTLE \u2014 Sample Syllabus Language on Ethical AI Use",
-        "url": "https://www.soka.edu/academics/ctle",
-        "why": "Faculty resource for policy language."
+        "label": "Undergraduate Writing Center \u2014 Ethical AI Language",
+        "url": "https://www.soka.edu/academics/undergraduate-programs/writing-center",
+        "why": "Sample syllabus statements rooted in humanistic pedagogy."
       }
     ],
     "choices": [
@@ -264,7 +264,7 @@
     "path": "balanced",
     "pathLabel": "Balanced / Literacy",
     "title": "Outcome: Ethical Clarity Through Dialogue",
-    "narrative": "By term's end, students submit reflective essays describing how AI shaped their thinking. Most express gratitude for being trusted to decide responsibly. A few still wish for simpler rules, but many highlight new awareness: \"I learned not just what AI can do — but what I can do with it.\" You sense the course has fostered something deeper than compliance: wisdom.",
+    "narrative": "By term's end, students submit reflective essays describing how AI shaped their thinking. Most express gratitude for being trusted to decide responsibly. A few still wish for simpler rules, but many highlight new awareness: \"I learned not just what AI can do \u2014 but what I can do with it.\" You guide them to name which SUA values their choices advanced: humanism, culture, pacifism, or contributive lives. You sense the course has fostered something deeper than compliance: wisdom linked to mission.",
     "resources": [
       {
         "label": "Harvard GSE \u2014 Reflective Judgment in AI\u2011Era Classrooms",
@@ -279,7 +279,7 @@
       {
         "label": "Soka University Mission Statement",
         "url": "https://www.soka.edu/about/mission",
-        "why": "Connects ethical literacy to contributive lives."
+        "why": "Connect reflective literacy to cultivating leaders of humanism and contributive lives."
       }
     ],
     "choices": [
@@ -298,7 +298,7 @@
     "path": "embracing",
     "pathLabel": "AI\u2011Embracing",
     "title": "Rethinking the Assignment",
-    "narrative": "You sit at your desk drafting the syllabus for your new interdisciplinary course. You know students already use AI for brainstorming and translation. Instead of policing that reality, you wonder: \"What if I invited AI use as part of the process itself?\" You rewrite a major paper assignment into an \"AI-Reflection Portfolio,\" where students must document prompts, evaluate AI output, and annotate what they learned about thinking itself.",
+    "narrative": "You sit at your desk drafting the syllabus for your new upper-level interdisciplinary course. You know students already use AI for brainstorming and translation. Instead of policing that reality, you wonder: \"What if I invited AI use as part of the process itself?\" You rewrite a major paper assignment into an \"AI-Reflection Portfolio,\" where students must document prompts, evaluate AI output, and annotate what they learned about thinking itself. You frame the experiment as cultivating leaders of pacifism who can resolve complex problems with creativity and care.",
     "resources": [
       {
         "label": "TEQSA (2025) \u2014 Assessment Redesign",
@@ -332,7 +332,7 @@
     "path": "embracing",
     "pathLabel": "AI\u2011Embracing",
     "title": "First Iteration",
-    "narrative": "Students experiment with AI during early drafts. Some produce nuanced reflections; others hand in work too dependent on the tool. In discussion, you model critical use: showing how to question AI's assumptions. The room fills with energy — half excitement, half uncertainty. One student says, \"I've never thought so much about how I write.\"",
+    "narrative": "Students experiment with AI during early drafts. Some produce nuanced reflections; others hand in work too dependent on the tool. In discussion, you model critical use: showing how to question AI's assumptions. The room fills with energy \u2014 half excitement, half uncertainty. One student says, \"I've never thought so much about how I write.\" Another links the work to preparing for peacebuilding dialogues abroad.",
     "resources": [
       {
         "label": "Inside Higher Ed (2024) \u2014 AI\u2011Assisted Drafting",
@@ -366,7 +366,7 @@
     "path": "embracing",
     "pathLabel": "AI\u2011Embracing",
     "title": "The Assessment Challenge",
-    "narrative": "Grading portfolios takes longer than expected. You realize authentic work requires new evaluation criteria — growth, insight, and self-reflection now matter more than grammar or format. A peer asks, \"Isn't this subjective?\" You reply, \"Maybe — but so is learning.\" By mid-semester, students begin referencing AI critically in discussions about ethics, bias, and creativity.",
+    "narrative": "Grading portfolios takes longer than expected. You realize authentic work requires new evaluation criteria \u2014 growth, insight, and self-reflection now matter more than grammar or format. A peer asks, \"Isn't this subjective?\" You reply, \"Maybe \u2014 but so is learning.\" By mid-semester, students begin referencing AI critically in discussions about ethics, bias, and creativity, connecting the seminar to Soka's vision of graduates leading contributive lives.",
     "resources": [
       {
         "label": "OECD (2024) \u2014 10 Guidelines",
@@ -379,15 +379,15 @@
         "why": "Reflection\u2011focused rubrics."
       },
       {
-        "label": "Soka CTLE \u2014 Reflective Portfolios & Learning Journals",
-        "url": "https://www.soka.edu/academics/ctle",
-        "why": "Process\u2011focused assessment design."
+        "label": "Faculty Forum \u2014 Reflective Portfolio Examples",
+        "url": "https://www.soka.edu/faculty-resources",
+        "why": "Peer-shared rubrics from interdisciplinary seminars."
       }
     ],
     "choices": [
       {
-        "label": "Share outcomes in a forum",
-        "to": "E4"
+        "label": "Partner with the Pacific Basin Research Center",
+        "to": "E3B"
       },
       {
         "label": "Simplify (switch to Balanced)",
@@ -400,7 +400,7 @@
     "path": "embracing",
     "pathLabel": "AI\u2011Embracing",
     "title": "Outcome: Innovation and Depth",
-    "narrative": "At semester's end, students present reflective projects titled \"What I Learned From My AI Mistakes.\" Their work is messy, honest, and profound. Some still rely too much on the tool, but most articulate a clearer sense of authorship. You feel both exhausted and inspired. When you present at a CTLE roundtable, a colleague says, \"This feels like the future of Soka education — humanistic, creative, responsible.\"",
+    "narrative": "At semester's end, students present reflective projects titled \"What I Learned From My AI Mistakes.\" Their work is messy, honest, and profound. Some still rely too much on the tool, but most articulate a clearer sense of authorship. You feel both exhausted and inspired. When you share at a Faculty Forum roundtable, a colleague says, \"This feels like the future of Soka education \u2014 humanistic, creative, responsible.\"",
     "resources": [
       {
         "label": "Inside Higher Ed (2025) \u2014 AI\u2011Ready Classroom",
@@ -415,7 +415,7 @@
       {
         "label": "Soka University Mission Statement",
         "url": "https://www.soka.edu/about/mission",
-        "why": "Connects authentic learning to wisdom, courage, and compassion."
+        "why": "Connect authentic learning to cultivating leaders of pacifism, humanism, and culture."
       }
     ],
     "choices": [
@@ -434,7 +434,7 @@
     "path": "collaborative",
     "pathLabel": "Collaborative",
     "title": "Opening the Dialogue",
-    "narrative": "You begin the semester with an open question: \"How should we, as a learning community, engage with AI?\" Instead of dictating rules, you invite students to share experiences — how AI has helped, hindered, or confused them. Together, the class drafts an \"AI Reflection Charter\" that commits to transparency, curiosity, and mutual respect.",
+    "narrative": "You begin the semester with an open question: \"How should we, as a learning community, engage with AI?\" Instead of dictating rules, you invite students to share experiences \u2014 how AI has helped, hindered, or confused them. Together, the class drafts an \"AI Reflection Charter\" that commits to transparency, curiosity, and mutual respect, explicitly linking the work to SUA's mission of fostering leaders of pacifism and humanism.",
     "resources": [
       {
         "label": "EDUCAUSE Review (2024) \u2014 Culture of AI Dialogue",
@@ -468,7 +468,7 @@
     "path": "collaborative",
     "pathLabel": "Collaborative",
     "title": "Shared Experimentation",
-    "narrative": "Each week, students log one AI interaction — a prompt, a response, and their reflection on it. In class, small groups analyze where the tool enhanced or hindered their thinking. Surprisingly, students begin to critique AI's biases and limits more deeply than expected. You realize you're modeling what Soka calls \"humanistic inquiry\" — the search for wisdom through dialogue with others and technology alike.",
+    "narrative": "Each week, students log one AI interaction \u2014 a prompt, a response, and their reflection on it. In class, small groups analyze where the tool enhanced or hindered their thinking. Surprisingly, students begin to critique AI's biases and limits more deeply than expected. You frame the practice as nurturing leaders of culture in the community who can steward technology with care.",
     "resources": [
       {
         "label": "Inside Higher Ed (2024) \u2014 Co\u2011Created Frameworks",
@@ -481,15 +481,15 @@
         "why": "Transparency & reflection."
       },
       {
-        "label": "Soka CTLE \u2014 Co\u2011Designing Classroom Norms",
-        "url": "https://www.soka.edu/academics/ctle",
-        "why": "Faculty\u2011student partnership in course design."
+        "label": "Center for Global Citizenship \u2014 Dialogue Facilitation Guides",
+        "url": "https://www.soka.edu/academics/center-global-citizenship",
+        "why": "Frameworks for co-creating course norms."
       }
     ],
     "choices": [
       {
-        "label": "Continue the experiment",
-        "to": "C3A"
+        "label": "Co-design community storytelling guidelines",
+        "to": "C2B"
       },
       {
         "label": "Standardize (switch to Balanced)",
@@ -502,7 +502,7 @@
     "path": "collaborative",
     "pathLabel": "Collaborative",
     "title": "Faculty Learning Cluster",
-    "narrative": "Colleagues hear about your approach and invite you to a faculty learning cluster on AI pedagogy. You share anonymized student reflections — both breakthroughs and confusions. Another professor worries about workload: \"How do we grade process fairly?\" You agree — collaboration requires new assessment norms. The group plans a small cross-course study.",
+    "narrative": "Colleagues hear about your approach and invite you to a Faculty Forum learning circle on AI pedagogy. You share anonymized student reflections \u2014 both breakthroughs and confusions. Another professor worries about workload: \"How do we grade process fairly?\" You agree \u2014 collaboration requires new assessment norms. The group plans a small cross-course study grounded in SUA's values.",
     "resources": [
       {
         "label": "Harvard GSE \u2014 Faculty Learning Communities",
@@ -515,9 +515,9 @@
         "why": "Scaling innovation."
       },
       {
-        "label": "Soka CTLE \u2014 Faculty Learning Cluster Program",
-        "url": "https://www.soka.edu/academics/ctle",
-        "why": "Connects faculty experimentation to institutional learning."
+        "label": "Faculty Forum \u2014 Learning Circle Toolkit",
+        "url": "https://www.soka.edu/faculty-resources",
+        "why": "Peer-led structures for sharing practice."
       }
     ],
     "choices": [
@@ -536,7 +536,7 @@
     "path": "collaborative",
     "pathLabel": "Collaborative",
     "title": "Outcome: Dialogue Becomes the Curriculum",
-    "narrative": "By semester's end, your class talks about AI as easily as about literature or ethics. Students report feeling trusted — and more responsible as a result. Faculty peers adapt your reflective logging model. Still, you know not every course or instructor has the time for this level of mentoring. The project closes with a sense of optimism — not that you've solved AI in education, but that you've learned to face it together.",
+    "narrative": "By semester's end, your class talks about AI as easily as about literature or ethics. Students report feeling trusted \u2014 and more responsible as a result. Faculty peers adapt your reflective logging model. Still, you know not every course or instructor has the time for this level of mentoring. The project closes with a sense of optimism \u2014 not that you've solved AI in education, but that you've learned to face it together in the spirit of cultivating leaders of pacifism and contributive lives.",
     "resources": [
       {
         "label": "Inside Higher Ed (2025) \u2014 Dialogue as Curriculum",
@@ -551,7 +551,7 @@
       {
         "label": "Soka University Mission Statement",
         "url": "https://www.soka.edu/about/mission",
-        "why": "Connects dialogue\u2011centered pedagogy to fostering global citizens."
+        "why": "Connect dialogue-centered pedagogy to fostering leaders of culture, humanism, and pacifism."
       }
     ],
     "choices": [
@@ -570,18 +570,120 @@
     "path": "shared",
     "pathLabel": "Meta\u2011Reflection",
     "title": "Teaching for Value Creation in the AI Era",
-    "narrative": "Each approach surfaced trade\u2011offs: integrity, creativity, equity, trust, workload. Compare what you protected, what you risked, and what you discovered \u2014 and align next steps with SUA\u2019s mission to foster global citizens who live contributive lives.",
+    "narrative": "Each approach surfaced trade-offs: integrity, creativity, equity, trust, workload. Compare what you protected, what you risked, and what you discovered \u2014 and map those insights to SUA's values: Are you fostering leaders of culture in the community, humanism, pacifism, and contributive lives? Note concrete next steps for your upper-level seminar.",
     "resources": [
       {
-        "label": "Soka University Mission",
-        "url": "https://www.soka.edu/about/mission",
-        "why": "Anchor choices in mission."
+        "label": "SUA Mission and Values",
+        "url": "https://www.soka.edu/about/suas-heritage/mission-and-values",
+        "why": "Anchor reflections in founding principles."
       }
     ],
     "choices": [
       {
         "label": "Restart from the Dilemma",
         "to": "D1"
+      }
+    ]
+  },
+  "B2B": {
+    "id": "B2B",
+    "path": "balanced",
+    "pathLabel": "Balanced / Literacy",
+    "title": "Human Rights Case Workshop",
+    "narrative": "You anchor the seminar in a human-rights case study drawn from the Pacific Basin. Teams map how AI could support research, storytelling, or advocacy, documenting risks to dignity and accuracy. Students connect decisions to SUA's founding principle of upholding human rights. Debate runs hot when one team argues AI translation could amplify marginalized voices faster.",
+    "resources": [
+      {
+        "label": "SUA Mission and Values",
+        "url": "https://www.soka.edu/about/suas-heritage/mission-and-values",
+        "why": "Ground AI decisions in institutional commitments."
+      },
+      {
+        "label": "Pacific Basin Research Center \u2014 Human Rights Initiatives",
+        "url": "https://www.soka.edu/academics/pacific-basin-research-center",
+        "why": "Examples of community-engaged scholarship."
+      },
+      {
+        "label": "UNESCO (2023) \u2014 Guidance for GenAI in Education",
+        "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386740",
+        "why": "Ethical guardrails for justice-focused work."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Translate insights into shared policy",
+        "to": "B3A"
+      },
+      {
+        "label": "Shift to collaborative co-design",
+        "to": "C2A"
+      }
+    ]
+  },
+  "E3B": {
+    "id": "E3B",
+    "path": "embracing",
+    "pathLabel": "AI-Embracing",
+    "title": "Community Partnership Dilemma",
+    "narrative": "A community partner from the Pacific Basin Research Center asks your seminar to co-create narratives for a justice campaign. Students debate whether to use AI for rapid translation and story drafts. Some argue it could amplify marginalized voices; others worry about accuracy and consent. You remind them of SUA's commitment to leaders of culture in the community, guiding a decision that balances efficiency with dignity.",
+    "resources": [
+      {
+        "label": "Pacific Basin Research Center \u2014 Community Partnerships",
+        "url": "https://www.soka.edu/academics/pacific-basin-research-center",
+        "why": "Opportunities for contributive research collaborations."
+      },
+      {
+        "label": "Center for Global Citizenship \u2014 Peacebuilding Toolkits",
+        "url": "https://www.soka.edu/academics/center-global-citizenship",
+        "why": "Frameworks for respectful cross-cultural engagement."
+      },
+      {
+        "label": "UNESCO (2023) \u2014 GenAI and Cultural Rights",
+        "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386740",
+        "why": "Guidance on safeguarding voices when using AI."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Document lessons for campus colleagues",
+        "to": "E4"
+      },
+      {
+        "label": "Invite collaborative reflection circle",
+        "to": "C3A"
+      }
+    ]
+  },
+  "C2B": {
+    "id": "C2B",
+    "path": "collaborative",
+    "pathLabel": "Collaborative",
+    "title": "Community Storytelling Lab",
+    "narrative": "Your seminar partners with the Center for Global Citizenship to host a community storytelling lab. Student teams craft guidelines for using AI to support oral histories from local activists. They debate whether AI summaries honor or flatten lived experience, anchoring decisions in SUA's principle of educating leaders of culture in the community.",
+    "resources": [
+      {
+        "label": "Center for Global Citizenship \u2014 Community Engagement",
+        "url": "https://www.soka.edu/academics/center-global-citizenship",
+        "why": "Support for contributive, community-facing projects."
+      },
+      {
+        "label": "Undergraduate Writing Center \u2014 Storytelling Support",
+        "url": "https://www.soka.edu/academics/undergraduate-programs/writing-center",
+        "why": "Coaching for ethical narrative practices."
+      },
+      {
+        "label": "SUA Mission and Values",
+        "url": "https://www.soka.edu/about/suas-heritage/mission-and-values",
+        "why": "Keep the lab anchored in institutional principles."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Share findings with faculty peers",
+        "to": "C3A"
+      },
+      {
+        "label": "Document practices for policy work",
+        "to": "B3A"
       }
     ]
   }
