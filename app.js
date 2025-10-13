@@ -1,3 +1,5 @@
+import { tracker } from './tracking.js';
+
 async function loadNodes(){ 
   try {
     const res = await fetch('./nodes.json', {cache:'no-store'});
@@ -29,23 +31,90 @@ function pathClass(path){
   }
 }
 
+function showWelcomeScreen(callback) {
+  const app = document.getElementById('app');
+  const user = tracker.getUser();
+  
+  // Only show welcome if they haven't set a name yet
+  if (user.name || sessionStorage.getItem('welcomed')) {
+    callback();
+    return;
+  }
+
+  app.innerHTML = `
+    <div class="max-w-2xl mx-auto p-8 bg-white rounded-2xl shadow-lg border-2 border-soka-blue">
+      <h1 class="font-serif text-3xl font-bold text-soka-blue mb-4">Welcome to Soka AI Pathways Explorer</h1>
+      <p class="text-lg text-gray-700 leading-relaxed mb-6">
+        This interactive experience explores different approaches to AI in the classroom. 
+        Your journey will be tracked locally in your browser to help us improve the workshop.
+      </p>
+      <div class="bg-blue-50 p-5 rounded-lg mb-6">
+        <label class="block font-medium text-gray-700 mb-2">Enter your name (optional):</label>
+        <input type="text" id="user-name-input" 
+          class="w-full px-4 py-2 border-2 border-gray-300 rounded-lg focus:border-soka-blue focus:outline-none"
+          placeholder="e.g., Professor Smith">
+        <p class="text-sm text-gray-500 mt-2">Or skip to continue anonymously</p>
+      </div>
+      <div class="flex gap-3">
+        <button id="submit-name" class="flex-1 px-6 py-3 bg-soka-blue text-white rounded-xl hover:bg-blue-800 font-medium shadow-sm hover:shadow-md transition-all">
+          Continue
+        </button>
+        <button id="skip-name" class="px-6 py-3 border-2 border-gray-300 text-gray-600 rounded-xl hover:bg-gray-50 font-medium transition-all">
+          Skip
+        </button>
+      </div>
+      <p class="text-xs text-gray-500 mt-4">
+        ℹ️ Your data stays in your browser only. No information is sent to a server.
+      </p>
+    </div>
+  `;
+
+  document.getElementById('submit-name').onclick = () => {
+    const name = document.getElementById('user-name-input').value;
+    if (name.trim()) {
+      tracker.setUserName(name);
+    }
+    sessionStorage.setItem('welcomed', 'true');
+    callback();
+  };
+
+  document.getElementById('skip-name').onclick = () => {
+    sessionStorage.setItem('welcomed', 'true');
+    callback();
+  };
+
+  // Allow Enter key to submit
+  document.getElementById('user-name-input').onkeypress = (e) => {
+    if (e.key === 'Enter') {
+      document.getElementById('submit-name').click();
+    }
+  };
+}
+
 function renderNode(node, trail=''){
   const app = document.getElementById('app');
   if(!node){
     app.innerHTML = '<div class="max-w-4xl mx-auto p-8 bg-white rounded-2xl shadow-lg border-2 border-gray-200"><h1 class="font-serif text-3xl font-bold text-soka-blue">Node not found</h1><p class="mt-3 text-gray-600">Please check the URL or restart from the beginning.</p></div>';
     return;
   }
+  
+  // Track this visit
+  tracker.logVisit(node.id, node.path, node.title);
+  
   const newTrail = trail ? (trail + '>' + node.id) : node.id;
+  const user = tracker.getUser();
   app.innerHTML = `
     <article class="max-w-4xl mx-auto p-8 bg-white rounded-2xl shadow-lg border-2 border-gray-100 transition-all">
       <header class="flex items-start justify-between gap-4 mb-6">
         <div class="flex-1">
+          ${user.name ? `<p class="text-sm text-gray-500 mb-2">👋 ${user.name}</p>` : ''}
           <p class="badge ${pathClass(node.path)} mb-3">${(node.pathLabel||'')}</p>
           <h1 id="page-title" tabindex="-1" class="font-serif text-4xl font-bold text-soka-blue leading-tight tracking-tight">${node.title}</h1>
         </div>
         <div class="text-right text-xs text-gray-400 font-mono">
           <div>Node: <code class="bg-gray-100 px-2 py-1 rounded">${node.id}</code></div>
           <div class="mt-1">Trail: ${newTrail.split('>').length}</div>
+          <div class="mt-1">Visits: ${tracker.getJourney().length}</div>
         </div>
       </header>
       <p class="text-lg leading-relaxed text-gray-700">${node.narrative}</p>
@@ -75,8 +144,17 @@ function renderNode(node, trail=''){
         </div>
       </section>
 
-      <section class="mt-8 pt-6 border-t border-gray-200 flex items-center gap-3 text-sm">
-        <a class="text-gray-500 hover:text-soka-blue underline transition-colors" href="#node=D1">← Restart from Beginning</a>
+      <section class="mt-8 pt-6 border-t border-gray-200">
+        <div class="flex flex-wrap items-center gap-4 text-sm">
+          <a class="text-gray-500 hover:text-soka-blue underline transition-colors" href="#node=D1">← Restart from Beginning</a>
+          <button onclick="window.tracker.downloadJourney()" class="text-gray-500 hover:text-soka-blue underline transition-colors">
+            Download My Journey
+          </button>
+          ${user.name ? `<span class="text-gray-400">•</span>
+          <button onclick="if(confirm('Clear your name and journey data?')){window.tracker.resetUser(); location.reload();}" class="text-gray-400 hover:text-red-600 underline transition-colors">
+            Reset Data
+          </button>` : ''}
+        </div>
       </section>
     </article>
   `;
@@ -91,6 +169,9 @@ function renderNode(node, trail=''){
 (async function init(){
   const app = document.getElementById('app');
   
+  // Expose tracker globally for onclick handlers
+  window.tracker = tracker;
+  
   // Show loading state
   app.innerHTML = '<div class="max-w-4xl mx-auto p-8 text-center"><div class="animate-pulse text-soka-blue font-serif text-xl">Loading pathways...</div></div>';
   
@@ -104,7 +185,11 @@ function renderNode(node, trail=''){
     }
     
     window.addEventListener('hashchange', update);
-    update();
+    
+    // Show welcome screen first, then start
+    showWelcomeScreen(() => {
+      update();
+    });
   } catch (error) {
     // Show user-friendly error message
     app.innerHTML = `
