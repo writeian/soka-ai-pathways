@@ -267,19 +267,14 @@
     "narrative": "By term's end, students submit reflective essays describing how AI shaped their thinking. Most express gratitude for being trusted to decide responsibly. A few still wish for simpler rules, but many highlight new awareness: \"I learned not just what AI can do — but what I can do with it.\" You guide them to name which SUA values their choices advanced: humanism, culture, pacifism, or contributive lives. You sense the course has fostered something deeper than compliance: wisdom linked to mission.",
     "resources": [
       {
-        "label": "EDUCAUSE Review (2024) — Teaching Critical Thinking with AI",
-        "url": "https://er.educause.edu/articles/2024/7/teaching-critical-thinking-with-ai",
-        "why": "Reflection as core AI literacy."
-      },
-      {
-        "label": "Inside Higher Ed (2024) — AI Literacy as Judgment",
-        "url": "https://www.insidehighered.com/opinion/views/2024/09/23/ai-literacy-more-judgment-skill",
-        "why": "Ethical discernment over technical skill."
-      },
-      {
         "label": "Soka University Mission Statement",
         "url": "https://www.soka.edu/about-soka/mission-vision",
         "why": "Connects ethical literacy to contributive lives."
+      },
+      {
+        "label": "arXiv (2023) — Contra Generative AI Detection",
+        "url": "https://arxiv.org/abs/2312.05241",
+        "why": "Technical and ethical analysis of AI in education."
       }
     ],
     "choices": [
