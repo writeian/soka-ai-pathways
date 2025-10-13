@@ -297,13 +297,13 @@
     "resources": [
       {
         "label": "TEQSA (2025) — Assessment Redesign",
-        "url": "https://www.teqsa.gov.au/latest-news/articles/assessment-redesign-authentic-learning-age-ai",
-        "why": "Authentic, process-based assessment."
+        "url": "https://www.instructure.com/en-au/resources/blog/three-pathways-assessment-reform-what-teqsas-ai-guidance-means-universities",
+        "why": "Models for institutional assessment redesign focusing on integrity and authenticity."
       },
       {
-        "label": "EDUCAUSE Review (2024) — Beyond Integrity",
-        "url": "https://er.educause.edu/articles/2024/8/beyond-integrity-designing-ai-for-learning",
-        "why": "Integrating AI as learning tool."
+        "label": "EDUCAUSE Review (2025) — The AI Tsunami",
+        "url": "https://er.educause.edu/articles/2025/9/the-ai-tsunami-is-here-reinventing-education-for-the-age-of-ai",
+        "why": "Shift to human-centered approach fostering collaboration and creativity with AI."
       },
       {
         "label": "Soka University Mission Statement",
@@ -330,14 +330,14 @@
     "narrative": "Students experiment with AI during early drafts. Some produce nuanced reflections; others hand in work too dependent on the tool. In discussion, you model critical use: showing how to question AI's assumptions. The room fills with energy — half excitement, half uncertainty. One student says, \"I've never thought so much about how I write.\" Another links the work to preparing for peacebuilding dialogues abroad.",
     "resources": [
       {
-        "label": "Inside Higher Ed (2024) — Professors Pioneer AI-Assisted Drafting",
-        "url": "https://www.insidehighered.com/news/faculty-issues/2024/04/22/professors-pioneer-ai-assisted-drafting",
-        "why": "Transparent AI integration."
+        "label": "Transparent AI Integration — Best Practices for Citing AI",
+        "url": "https://medium.com/@christynaserrano/building-transparency-in-ai-best-practices-for-citing-and-using-ai-in-higher-education-5288c458f353",
+        "why": "Guide for transparent AI use and critical engagement."
       },
       {
-        "label": "Harvard GSE (2024) — Metacognition and AI",
-        "url": "https://www.gse.harvard.edu/news/2024/03/metacognition-and-ai-helping-students-think-about-thinking",
-        "why": "How reflection on process deepens learning."
+        "label": "Education Development Trust — Metacognition",
+        "url": "https://www.edt.org/insights-from-our-work/metacognition-why-teaching-students-to-think-about-their-learning-matters-more-than-ever",
+        "why": "Teaching metacognitive strategies for deeper learning."
       },
       {
         "label": "UNESCO (2023) — GenAI in Education",
@@ -364,14 +364,14 @@
     "narrative": "Grading portfolios takes longer than expected. You realize authentic work requires new evaluation criteria — growth, insight, and self-reflection now matter more than grammar or format. A peer asks, \"Isn't this subjective?\" You reply, \"Maybe — but so is learning.\" By mid-semester, students begin referencing AI critically in discussions about ethics, bias, and creativity, connecting the seminar to Soka's vision of graduates leading contributive lives.",
     "resources": [
       {
-        "label": "OECD (2024) — 10 Guidelines",
-        "url": "https://www.oecd.org/en/publications/ai-and-the-future-of-learning-education-2030.html",
-        "why": "Assessment reform."
+        "label": "OECD — AI and Education and Skills",
+        "url": "https://www.oecd.org/en/topics/artificial-intelligence-and-education-and-skills.html",
+        "why": "Policy analysis on how AI shifts skills demand and assessment priorities."
       },
       {
-        "label": "EDUCAUSE (2025) — Redefining Assessment",
-        "url": "https://er.educause.edu/articles/2025/1/redefining-assessment-authentic-learning",
-        "why": "Reflection-focused rubrics."
+        "label": "EDUCAUSE Review (2025) — Beyond Tool or Threat",
+        "url": "https://er.educause.edu/articles/2025/9/beyond-tool-or-threat-genai-and-the-challenge-it-poses-to-higher-education",
+        "why": "Reimagining purpose and values in authentic assessment."
       }
     ],
     "choices": [
@@ -393,14 +393,14 @@
     "narrative": "At semester's end, students present reflective projects titled \"What I Learned From My AI Mistakes.\" Their work is messy, honest, and profound. Some still rely too much on the tool, but most articulate a clearer sense of authorship. You feel both exhausted and inspired. When you share at a Faculty Forum roundtable, a colleague says, \"This feels like the future of Soka education — humanistic, creative, responsible.\"",
     "resources": [
       {
-        "label": "Inside Higher Ed (2025) — AI-Ready Classroom",
-        "url": "https://www.insidehighered.com/opinion/views/2025/03/17/ai-ready-classroom-faculty-reflections-redesign",
-        "why": "Faculty reflections on redesign."
+        "label": "EDUCAUSE Review (2025) — A More Human University",
+        "url": "https://er.educause.edu/articles/2025/10/a-more-human-university-the-role-of-ai-in-learning",
+        "why": "Scaling meaningful, individualized learning experiences with AI."
       },
       {
-        "label": "EDUCAUSE Review (2025) — Faculty Voices",
-        "url": "https://er.educause.edu/articles/2025/2/faculty-voices-authentic-ai-learning-in-practice",
-        "why": "Authentic learning with AI."
+        "label": "EDUCAUSE Review (2025) — Ethics Is the Edge",
+        "url": "https://er.educause.edu/articles/2025/6/ethics-is-the-edge-the-future-of-ai-in-higher-education",
+        "why": "Ethical imperative for governance aligning AI with academic values."
       },
       {
         "label": "Soka University Mission Statement",
@@ -617,19 +617,19 @@
     "narrative": "A community partner from the Pacific Basin Research Center asks your seminar to co-create narratives for a justice campaign. Students debate whether to use AI for rapid translation and story drafts. Some argue it could amplify marginalized voices; others worry about accuracy and consent. You remind them of SUA's commitment to leaders of culture in the community, guiding a decision that balances efficiency with dignity.",
     "resources": [
       {
-        "label": "Pacific Basin Research Center — Community Partnerships",
-        "url": "https://www.soka.edu/academics/pacific-basin-research-center",
-        "why": "Opportunities for contributive research collaborations."
+        "label": "Pacific Basin Research Center",
+        "url": "https://www.soka.edu/academics/research/pacific-basin-research-center/about",
+        "why": "PBRC's mission for peaceful, humanistic development of Asia-Pacific region."
       },
       {
-        "label": "Center for Global Citizenship — Peacebuilding Toolkits",
-        "url": "https://www.soka.edu/academics/center-global-citizenship",
-        "why": "Frameworks for respectful cross-cultural engagement."
+        "label": "USIP — Peacebuilding Toolkits",
+        "url": "https://www.usip.org/public-education/educators/classroom-resources",
+        "why": "Framework for incorporating conflict management and peacebuilding concepts."
       },
       {
-        "label": "UNESCO (2023) — GenAI and Cultural Rights",
-        "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386740",
-        "why": "Guidance on safeguarding voices when using AI."
+        "label": "UNESCO — Guidance for GenAI",
+        "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+        "why": "Protecting cultural and linguistic diversity when using GenAI."
       }
     ],
     "choices": [
