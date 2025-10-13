@@ -427,14 +427,14 @@
     "narrative": "You begin the semester with an open question: \"How should we, as a learning community, engage with AI?\" Instead of dictating rules, you invite students to share experiences — how AI has helped, hindered, or confused them. Together, the class drafts an \"AI Reflection Charter\" that commits to transparency, curiosity, and mutual respect, explicitly linking the work to SUA's mission of fostering leaders of pacifism and humanism.",
     "resources": [
       {
-        "label": "EDUCAUSE Review (2024) — Culture of AI Dialogue",
-        "url": "https://er.educause.edu/articles/2024/9/building-a-culture-of-ai-dialogue-in-higher-education",
-        "why": "Participatory norms."
+        "label": "EDUCAUSE Review (2025) — In the Room Where It Happens",
+        "url": "https://er.educause.edu/articles/2025/5/in-the-room-where-it-happens-generative-ai-policy-creation-in-higher-education",
+        "why": "Creating room for diverse perspectives in AI policy creation."
       },
       {
         "label": "UNESCO (2023) — Guidance for GenAI",
         "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-        "why": "Ethical participation."
+        "why": "Human-centered vision for GenAI in education."
       },
       {
         "label": "Soka University Mission Statement",
@@ -461,19 +461,19 @@
     "narrative": "Each week, students log one AI interaction — a prompt, a response, and their reflection on it. In class, small groups analyze where the tool enhanced or hindered their thinking. Surprisingly, students begin to critique AI's biases and limits more deeply than expected. You frame the practice as nurturing leaders of culture in the community who can steward technology with care.",
     "resources": [
       {
-        "label": "Inside Higher Ed (2024) — Co-Created Frameworks",
-        "url": "https://www.insidehighered.com/news/faculty-issues/2024/05/10/students-and-faculty-co-create-ai-frameworks",
-        "why": "Collaborative literacy."
+        "label": "Campbell University — AI in Higher Education Survey",
+        "url": "https://sites.campbell.edu/academictechnology/2025/03/06/ai-in-higher-education-a-summary-of-recent-surveys-of-students-and-faculty/",
+        "why": "Student-faculty collaboration on ethical AI guidelines."
       },
       {
-        "label": "EDUCAUSE (2025) — AI Learning Logs",
-        "url": "https://er.educause.edu/articles/2025/3/ai-learning-logs-reflection-and-transparency-in-practice",
-        "why": "Transparency & reflection."
+        "label": "EDUCAUSE Review (2025) — A More Human University",
+        "url": "https://er.educause.edu/articles/2025/10/a-more-human-university-the-role-of-ai-in-learning",
+        "why": "Scaling deep, individualized, metacognitive learning with AI."
       },
       {
-        "label": "Soka Institute for Global Solutions — Global Citizenship Resources",
-        "url": "https://sigs.soka.edu/project_category/global-citizenship-education/",
-        "why": "Frameworks for collaborative learning."
+        "label": "Soka Institute for Global Solutions",
+        "url": "https://sigs.soka.edu/",
+        "why": "SIGS projects for global cooperation embodying collaborative spirit."
       }
     ],
     "choices": [
@@ -495,19 +495,19 @@
     "narrative": "Colleagues hear about your approach and invite you to a Faculty Forum learning circle on AI pedagogy. You share anonymized student reflections — both breakthroughs and confusions. Another professor worries about workload: \"How do we grade process fairly?\" You agree — collaboration requires new assessment norms. The group plans a small cross-course study grounded in SUA's values.",
     "resources": [
       {
-        "label": "Harvard GSE — Faculty Learning Communities",
-        "url": "https://www.gse.harvard.edu/news/2024/09/faculty-learning-communities-ai-innovation",
-        "why": "Peer collaboration."
+        "label": "Harvard GSE — AI Can Add to Learning",
+        "url": "https://www.gse.harvard.edu/ideas/news/25/04/ai-can-add-not-just-subtract-learning",
+        "why": "AI adding value to learning, ideal for faculty discussion."
       },
       {
-        "label": "EDUCAUSE (2025) — Faculty Learning Networks",
-        "url": "https://er.educause.edu/articles/2025/1/faculty-learning-networks-scaling-innovation-in-teaching-with-ai",
-        "why": "Scaling innovation."
+        "label": "EDUCAUSE Review (2024) — Exploring Opportunities and Challenges",
+        "url": "https://er.educause.edu/articles/2024/2/exploring-the-opportunities-and-challenges-with-generative-ai",
+        "why": "Institutional imperative for stakeholder conversations on AI policy."
       },
       {
-        "label": "Soka News — Faculty Collaboration on Global Citizenship",
-        "url": "https://www.soka.edu/news-events/news/fostering-global-citizens-every-grade-level-sua-alumni-reunite-sigs-education",
-        "why": "Example of collaborative faculty development."
+        "label": "Soka News — Events and Collaboration",
+        "url": "https://www.soka.edu/news-events/news?page=5",
+        "why": "Example of Soka faculty collaboration and events."
       }
     ],
     "choices": [
@@ -529,14 +529,14 @@
     "narrative": "By semester's end, your class talks about AI as easily as about literature or ethics. Students report feeling trusted — and more responsible as a result. Faculty peers adapt your reflective logging model. Still, you know not every course or instructor has the time for this level of mentoring. The project closes with a sense of optimism — not that you've solved AI in education, but that you've learned to face it together in the spirit of cultivating leaders of pacifism and contributive lives.",
     "resources": [
       {
-        "label": "Inside Higher Ed (2025) — Dialogue as Curriculum",
-        "url": "https://www.insidehighered.com/opinion/views/2025/04/15/when-dialogue-becomes-curriculum",
-        "why": "Dialogic practice."
+        "label": "EDUCAUSE Review (2025) — Ethics Is the Edge",
+        "url": "https://er.educause.edu/articles/2025/6/ethics-is-the-edge-the-future-of-ai-in-higher-education",
+        "why": "Pragmatic ethical framework for integrating AI through dialogue."
       },
       {
-        "label": "OECD (2024) — Collaborative Teaching Models",
-        "url": "https://www.oecd.org/en/publications/ai-and-the-future-of-learning-education-2030.html",
-        "why": "Equity & trust data."
+        "label": "OECD — AI and Education and Skills",
+        "url": "https://www.oecd.org/en/topics/artificial-intelligence-and-education-and-skills.html",
+        "why": "Analysis of AI impact on learning and skills, linking collaboration to equity."
       },
       {
         "label": "Soka University Mission Statement",
@@ -651,14 +651,14 @@
     "narrative": "Your seminar partners with the Center for Global Citizenship to host a community storytelling lab. Student teams craft guidelines for using AI to support oral histories from local activists. They debate whether AI summaries honor or flatten lived experience, anchoring decisions in SUA's principle of educating leaders of culture in the community.",
     "resources": [
       {
-        "label": "Center for Global Citizenship — Community Engagement",
-        "url": "https://www.soka.edu/academics/center-global-citizenship",
-        "why": "Support for contributive, community-facing projects."
+        "label": "Soka Institute for Global Solutions",
+        "url": "https://sigs.soka.edu/",
+        "why": "SIGS mission-aligned collaborative community projects."
       },
       {
-        "label": "Undergraduate Writing Center — Storytelling Support",
-        "url": "https://www.soka.edu/academics/undergraduate-programs/writing-center",
-        "why": "Coaching for ethical narrative practices."
+        "label": "University Writing Center",
+        "url": "https://catalog.soka.edu/university-writing-center",
+        "why": "Writing support for ethical narrative practices."
       },
       {
         "label": "SUA Mission and Values",
