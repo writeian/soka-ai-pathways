@@ -3,8 +3,8 @@
     "id": "D1",
     "path": "shared",
     "pathLabel": "Shared Start",
-    "title": "Designing a New Course in the AI Era",
-    "narrative": "You are preparing a new course at Soka University of America. Students already use AI for brainstorming, translation, and writing. Which stance will guide your design?",
+    "title": "Designing a Mission-Aligned Seminar",
+    "narrative": "You are preparing an upper-level interdisciplinary seminar at Soka University of America. Students already arrive with AI habits for brainstorming, translation, and writing. As you outline the syllabus, you consider how each possible stance on AI could cultivate SUA's values\u2014leaders of humanism, intercultural dialogue, and pacifism, and graduates committed to living contributive lives. Where will you begin?",
     "resources": [
       {
         "label": "Soka University Mission",
@@ -39,18 +39,18 @@
     "narrative": "You draft your new course policy: \"AI-generated text is not permitted on any assignments.\" You frame it as protecting academic honesty and human dignity, pointing to SUA's commitment to uphold human rights. Students nod, though one asks privately if translation tools count.",
     "resources": [
       {
-        "label": "HEPI Policy Note 61 (2025) \u2014 Outsourcing Pipeline",
-        "url": "https://www.hepi.ac.uk/2025/03/12/the-outsourcing-pipeline",
-        "why": "Limits of detection; policy trade\u2011offs."
+        "label": "HEPI (2023) \u2014 ChatGPT, \u201cAIgiarism,\u201d and Integrity",
+        "url": "https://www.hepi.ac.uk/2023/04/22/artificial-intelligence-chatgpt-and-aigiarism-what-are-the-implications-for-higher-education/",
+        "why": "Policy implications of banning vs guiding AI use."
       },
       {
-        "label": "Turnitin (2024) \u2014 AI Writing Detection Report",
-        "url": "https://www.turnitin.com/resources/ai-writing-detection-educator-report",
-        "why": "False positives and faculty trust challenges."
+        "label": "KQED MindShift (2024) \u2014 Why AI Writing Detectors Fail",
+        "url": "https://www.kqed.org/mindshift/60534/why-ai-writing-detectors-fail",
+        "why": "False positives and equity concerns."
       },
       {
-        "label": "SUA Academic Integrity Policy",
-        "url": "https://catalog.soka.edu/academic-integrity",
+        "label": "SUA Academic Honesty Policy",
+        "url": "https://catalog.soka.edu/academic-honesty",
         "why": "Institutional grounding."
       }
     ],
