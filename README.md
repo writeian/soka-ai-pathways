@@ -1,6 +1,8 @@
-# Soka AI Approaches Explorer (Static Site)
+# Soka AI Approaches Explorer
 
 A tiny, static choose‑your‑own‑path site to explore four approaches to AI in the classroom at **Soka University of America**.
+
+AI pathways for workshop 2025.
 
 ## Features
 - Single‑page app with hash routing (`/#node=...`), no backend
@@ -33,12 +35,12 @@ python3 -m http.server 8080
   - Update narratives/resources directly in `nodes.json`.
   - Add new nodes (IDs like `B5`, `E2B`, etc.).
   - Ask Codex to generate consistent micro‑copy or validation on links.
-- Preview by running a static server or using Cursor’s built‑in preview.
+- Preview by running a static server or using Cursor's built‑in preview.
 
 ## URL Conventions
 - Start: `/#node=D1`
 - Example: `/#node=B2A&trail=D1>B1>B2A`
-- “Copy link to this step” button places the current URL on your clipboard.
+- "Copy link to this step" button places the current URL on your clipboard.
 
 ## Content Structure (`nodes.json`)
 ```json
@@ -56,4 +58,4 @@ python3 -m http.server 8080
 ```
 
 ## License
-MIT (or adapt to your institution’s preference)
+MIT (or adapt to your institution's preference)
