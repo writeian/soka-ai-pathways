@@ -14,6 +14,10 @@
     ],
     "choices": [
       {
+        "label": "Ignore AI — Defer policy decisions",
+        "to": "I1"
+      },
+      {
         "label": "Prohibitive — Ban AI",
         "to": "P1"
       },
@@ -28,6 +32,73 @@
       {
         "label": "Collaborative — Co‑learn with students",
         "to": "C1"
+      }
+    ]
+  },
+  "I1": {
+    "id": "I1",
+    "path": "ignore",
+    "pathLabel": "Ignore / Minimal Intervention",
+    "title": "The Decision to Maintain Status Quo",
+    "narrative": "You're facing a heavy workload this semester—committee work, research deadlines, and advising demands pile up. As you draft your syllabus, you decide to maintain the status quo, adding only a vague academic honesty statement: \"Students are expected to submit their own work.\" This saves you dozens of hours of course redesign. You tell yourself you'll address AI properly next year, when you have more time. For now, you focus on the content you're passionate about teaching.",
+    "resources": [
+      {
+        "label": "EDUCAUSE Review (2024) — Faculty Workload",
+        "url": "https://er.educause.edu/articles/2024/2/exploring-the-opportunities-and-challenges-with-generative-ai",
+        "why": "Challenge of faculty time and effort in responding to AI."
+      },
+      {
+        "label": "Medium (2024) — The Cost of Inaction",
+        "url": "https://medium.com/@michi.buehler_52708/generative-ai-in-higher-education-d89b7475f007",
+        "why": "Systemic risk of neglecting AI and avoiding difficult conversations."
+      },
+      {
+        "label": "SUA Academic Honesty Policy",
+        "url": "https://catalog.soka.edu/academic-honesty",
+        "why": "Baseline institutional policy."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Continue deferring",
+        "to": "I2"
+      },
+      {
+        "label": "Acknowledge the integrity failure (switch to Prohibitive)",
+        "to": "P1"
+      },
+      {
+        "label": "Shift to literacy focus (switch to Balanced)",
+        "to": "B1"
+      }
+    ]
+  },
+  "I2": {
+    "id": "I2",
+    "path": "ignore",
+    "pathLabel": "Ignore / Minimal Intervention",
+    "title": "Cheating and Complacency",
+    "narrative": "Midway through the semester, you notice something troubling. Student papers suddenly show uniform polish—similar phrasing, consistent formatting, and a surprising lack of the usual errors. During office hours, two dedicated students confide their frustration: \"Everyone else is using AI and getting away with it. We're working so hard, and they just paste prompts.\" You feel caught—you don't have time to investigate every assignment, but the inequity is obvious. Trust begins to erode, and you wonder if your silence communicated approval.",
+    "resources": [
+      {
+        "label": "EDUCAUSE Review (2025) — Erosion of Trust",
+        "url": "https://er.educause.edu/articles/2025/6/ethics-is-the-edge-the-future-of-ai-in-higher-education",
+        "why": "How lack of clear policy erodes student-faculty trust."
+      },
+      {
+        "label": "HEPI (2025) — Student AI Survey",
+        "url": "https://www.hepi.ac.uk/reports/student-generative-ai-survey-2025/",
+        "why": "Statistics on high student AI use and belief institutions aren't catching it."
+      }
+    ],
+    "choices": [
+      {
+        "label": "Acknowledge the integrity failure (switch to Prohibitive)",
+        "to": "P1"
+      },
+      {
+        "label": "Shift to literacy focus (switch to Balanced)",
+        "to": "B1"
       }
     ]
   },

@@ -20,6 +20,7 @@ function setHash(node, trail){ location.hash = 'node='+encodeURIComponent(node) 
 
 function pathClass(path){
   switch(path){
+    case 'ignore': return 'path-ignore';
     case 'prohibitive': return 'path-prohibitive';
     case 'balanced': return 'path-balanced';
     case 'embracing': return 'path-embracing';
