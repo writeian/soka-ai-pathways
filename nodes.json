@@ -162,12 +162,17 @@
     "path": "balanced",
     "pathLabel": "Balanced / Literacy",
     "title": "Designing the New Course",
-    "narrative": "You add a unit on Responsible AI Use. Students will write with and without AI and compare processes.",
+    "narrative": "You're drafting a syllabus for a new interdisciplinary seminar at Soka University of America. You know that students are already using AI for translation, brainstorming, and writing support. Rather than ban it, you design a short unit on \"Responsible AI Use.\" Students will practice writing with and without AI, comparing their processes and reflecting on what they learn.",
     "resources": [
       {
         "label": "EDUCAUSE (2025) \u2014 Establishing AI Literacy",
         "url": "https://er.educause.edu/articles/2025/02/establishing-ai-literacy",
         "why": "Curricular framing."
+      },
+      {
+        "label": "Soka University Mission Statement",
+        "url": "https://www.soka.edu/about/mission",
+        "why": "Frames AI use as a question of global citizenship."
       },
       {
         "label": "UNESCO (2023) \u2014 Guidance for GenAI in Education",
@@ -191,12 +196,17 @@
     "path": "balanced",
     "pathLabel": "Balanced / Literacy",
     "title": "Ethical AI Workshops",
-    "narrative": "Students bring AI output and their own writing. Discussion surfaces bias, substitution, and judgment.",
+    "narrative": "Week three. Students bring examples of AI output alongside their own writing. They identify what AI captures — and what it misses. Discussion turns lively: \"How do we know when AI's help becomes substitution?\" You realize they're not just learning writing — they're learning judgment.",
     "resources": [
       {
         "label": "EDUCAUSE Review (2024) \u2014 Teaching AI Literacy & Ethics",
         "url": "https://er.educause.edu/articles/2024/10/teaching-ai-literacy-and-ethics",
         "why": "Classroom practices."
+      },
+      {
+        "label": "Soka CTLE \u2014 Reflection\u2011Based Integrity Assignments",
+        "url": "https://www.soka.edu/academics/ctle",
+        "why": "Guidance on reflection\u2011based integrity."
       },
       {
         "label": "NASEM (2023) \u2014 Ethics of AI in Education",
@@ -220,7 +230,7 @@
     "path": "balanced",
     "pathLabel": "Balanced / Literacy",
     "title": "Refining the Policy",
-    "narrative": "Class co\u2011creates an AI Use Agreement (cite AI, reflect on process). Clarity vs. nuance becomes ongoing work.",
+    "narrative": "Together, the class revises its \"AI Use Agreement.\" Students agree to cite AI assistance, reflect on their process, and take responsibility for final ideas. You notice improved confidence in weaker writers and fewer integrity concerns. Still, updating and clarifying the policy each semester takes time. Some colleagues worry: \"Won't this gray area confuse students?\"",
     "resources": [
       {
         "label": "Inside Higher Ed (2024) \u2014 Rethinking Integrity",
@@ -231,6 +241,11 @@
         "label": "HEPI (2025) \u2014 Student Attitudes toward AI",
         "url": "https://www.hepi.ac.uk/2025/04/12/student-attitudes-toward-ai-use",
         "why": "Transparency & self\u2011regulation."
+      },
+      {
+        "label": "Soka CTLE \u2014 Sample Syllabus Language on Ethical AI Use",
+        "url": "https://www.soka.edu/academics/ctle",
+        "why": "Faculty resource for policy language."
       }
     ],
     "choices": [
@@ -249,7 +264,7 @@
     "path": "balanced",
     "pathLabel": "Balanced / Literacy",
     "title": "Outcome: Ethical Clarity Through Dialogue",
-    "narrative": "Students describe how AI shaped their thinking. Trust grows; some still want simpler rules.",
+    "narrative": "By term's end, students submit reflective essays describing how AI shaped their thinking. Most express gratitude for being trusted to decide responsibly. A few still wish for simpler rules, but many highlight new awareness: \"I learned not just what AI can do — but what I can do with it.\" You sense the course has fostered something deeper than compliance: wisdom.",
     "resources": [
       {
         "label": "Harvard GSE \u2014 Reflective Judgment in AI\u2011Era Classrooms",
@@ -260,6 +275,11 @@
         "label": "OECD (2024) \u2014 AI & Future of Learning",
         "url": "https://www.oecd.org/education/ai-and-future-learning-2024.htm",
         "why": "Responsible integration."
+      },
+      {
+        "label": "Soka University Mission Statement",
+        "url": "https://www.soka.edu/about/mission",
+        "why": "Connects ethical literacy to contributive lives."
       }
     ],
     "choices": [
