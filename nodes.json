@@ -434,7 +434,7 @@
     "path": "collaborative",
     "pathLabel": "Collaborative",
     "title": "Opening the Dialogue",
-    "narrative": "You invite students to co\u2011draft an AI Reflection Charter for transparency, curiosity, and respect.",
+    "narrative": "You begin the semester with an open question: \"How should we, as a learning community, engage with AI?\" Instead of dictating rules, you invite students to share experiences — how AI has helped, hindered, or confused them. Together, the class drafts an \"AI Reflection Charter\" that commits to transparency, curiosity, and mutual respect.",
     "resources": [
       {
         "label": "EDUCAUSE Review (2024) \u2014 Culture of AI Dialogue",
@@ -445,6 +445,11 @@
         "label": "UNESCO (2023) \u2014 Guidance for GenAI",
         "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386740",
         "why": "Ethical participation."
+      },
+      {
+        "label": "Soka University Mission Statement",
+        "url": "https://www.soka.edu/about/mission",
+        "why": "Frames education as dialogical and humanistic."
       }
     ],
     "choices": [
@@ -463,7 +468,7 @@
     "path": "collaborative",
     "pathLabel": "Collaborative",
     "title": "Shared Experimentation",
-    "narrative": "Students keep AI learning logs and discuss when AI helps or hinders thinking; critique deepens.",
+    "narrative": "Each week, students log one AI interaction — a prompt, a response, and their reflection on it. In class, small groups analyze where the tool enhanced or hindered their thinking. Surprisingly, students begin to critique AI's biases and limits more deeply than expected. You realize you're modeling what Soka calls \"humanistic inquiry\" — the search for wisdom through dialogue with others and technology alike.",
     "resources": [
       {
         "label": "Inside Higher Ed (2024) \u2014 Co\u2011Created Frameworks",
@@ -474,6 +479,11 @@
         "label": "EDUCAUSE (2025) \u2014 AI Learning Logs",
         "url": "https://er.educause.edu/articles/2025/03/ai-learning-logs",
         "why": "Transparency & reflection."
+      },
+      {
+        "label": "Soka CTLE \u2014 Co\u2011Designing Classroom Norms",
+        "url": "https://www.soka.edu/academics/ctle",
+        "why": "Faculty\u2011student partnership in course design."
       }
     ],
     "choices": [
@@ -492,7 +502,7 @@
     "path": "collaborative",
     "pathLabel": "Collaborative",
     "title": "Faculty Learning Cluster",
-    "narrative": "Colleagues join a learning cluster. You share anonymized reflections; assessment norms are discussed.",
+    "narrative": "Colleagues hear about your approach and invite you to a faculty learning cluster on AI pedagogy. You share anonymized student reflections — both breakthroughs and confusions. Another professor worries about workload: \"How do we grade process fairly?\" You agree — collaboration requires new assessment norms. The group plans a small cross-course study.",
     "resources": [
       {
         "label": "Harvard GSE \u2014 Faculty Learning Communities",
@@ -503,6 +513,11 @@
         "label": "EDUCAUSE (2025) \u2014 Faculty Learning Networks",
         "url": "https://er.educause.edu/articles/2025/01/faculty-learning-networks-ai-innovation",
         "why": "Scaling innovation."
+      },
+      {
+        "label": "Soka CTLE \u2014 Faculty Learning Cluster Program",
+        "url": "https://www.soka.edu/academics/ctle",
+        "why": "Connects faculty experimentation to institutional learning."
       }
     ],
     "choices": [
@@ -521,7 +536,7 @@
     "path": "collaborative",
     "pathLabel": "Collaborative",
     "title": "Outcome: Dialogue Becomes the Curriculum",
-    "narrative": "Students feel trusted and responsible. Model spreads; time demands remain a constraint.",
+    "narrative": "By semester's end, your class talks about AI as easily as about literature or ethics. Students report feeling trusted — and more responsible as a result. Faculty peers adapt your reflective logging model. Still, you know not every course or instructor has the time for this level of mentoring. The project closes with a sense of optimism — not that you've solved AI in education, but that you've learned to face it together.",
     "resources": [
       {
         "label": "Inside Higher Ed (2025) \u2014 Dialogue as Curriculum",
@@ -532,6 +547,11 @@
         "label": "OECD (2024) \u2014 Collaborative Teaching Models",
         "url": "https://www.oecd.org/education/ai-and-future-learning-2024.htm",
         "why": "Equity & trust data."
+      },
+      {
+        "label": "Soka University Mission Statement",
+        "url": "https://www.soka.edu/about/mission",
+        "why": "Connects dialogue\u2011centered pedagogy to fostering global citizens."
       }
     ],
     "choices": [
