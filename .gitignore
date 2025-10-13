@@ -1,0 +1,14 @@
+# Brand assets (large files, local reference only)
+brand-assets/
+
+# Archive (temporary files)
+archive/
+
+# macOS
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
+
