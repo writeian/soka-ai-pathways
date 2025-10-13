@@ -36,12 +36,17 @@
     "path": "prohibitive",
     "pathLabel": "Prohibitive",
     "title": "Setting the Boundary",
-    "narrative": "You set a policy: AI\u2011generated text is not permitted on assignments. A student asks if translation tools count.",
+    "narrative": "You draft your new course policy: \"AI-generated text is not permitted on any assignments.\" You tell students that true learning requires struggle — \"The effort to express one's own ideas builds understanding.\" Students nod, though one asks privately if translation tools count.",
     "resources": [
       {
         "label": "HEPI Policy Note 61 (2025) \u2014 Outsourcing Pipeline",
         "url": "https://www.hepi.ac.uk/2025/03/12/the-outsourcing-pipeline",
         "why": "Limits of detection; policy trade\u2011offs."
+      },
+      {
+        "label": "Turnitin (2024) \u2014 AI Writing Detection Report",
+        "url": "https://www.turnitin.com/resources/ai-writing-detection-educator-report",
+        "why": "False positives and faculty trust challenges."
       },
       {
         "label": "SUA Academic Integrity Policy",
@@ -65,7 +70,7 @@
     "path": "prohibitive",
     "pathLabel": "Prohibitive",
     "title": "The Translation Question",
-    "narrative": "A multilingual student uses AI only to translate readings. Participation dips as uncertainty grows.",
+    "narrative": "A multilingual student confides: \"I only use AI to translate readings so I can understand class discussion.\" You reaffirm your rule: each student should rely on their own effort to develop language skills. Participation drops, and you sense growing distance.",
     "resources": [
       {
         "label": "TESOL Quarterly (2024) \u2014 AI Translation & Equity",
@@ -94,7 +99,7 @@
     "path": "prohibitive",
     "pathLabel": "Prohibitive",
     "title": "The Enforcement Semester",
-    "narrative": "Detection and reporting take time. A false positive strains trust. Compliance rises; curiosity drops.",
+    "narrative": "You implement AI detection software and restate strict consequences. Midterm, a false flag occurs — a student accused of AI use insists on innocence. The process consumes hours of investigation. Students stop visiting office hours; compliance rises, curiosity drops.",
     "resources": [
       {
         "label": "Inside Higher Ed (2024) \u2014 False AI Accusations",
@@ -105,6 +110,11 @@
         "label": "EDUCAUSE Review (2024) \u2014 Integrity and Care",
         "url": "https://er.educause.edu/articles/2024/01/integrity-and-care",
         "why": "Relational approaches to integrity."
+      },
+      {
+        "label": "Soka CTLE \u2014 Assessment & Academic Integrity",
+        "url": "https://www.soka.edu/academics/ctle",
+        "why": "Reflective, student\u2011centered approaches."
       }
     ],
     "choices": [
@@ -123,7 +133,7 @@
     "path": "prohibitive",
     "pathLabel": "Prohibitive",
     "title": "Outcome: Integrity Preserved, Dialogue Lost?",
-    "narrative": "Records show compliance. Course climate feels tense. Did control achieve the learning it sought to protect?",
+    "narrative": "Your records show near-perfect compliance. But course evaluations describe your class as \"serious, but tense.\" You reflect: integrity was upheld — yet engagement and empathy weakened. Has control achieved the learning it sought to protect?",
     "resources": [
       {
         "label": "Harvard GSE \u2014 Teaching for Trust in the Age of AI",
