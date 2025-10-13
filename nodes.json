@@ -214,14 +214,9 @@
         "why": "Practical classroom strategies for teaching AI literacy."
       },
       {
-        "label": "Inside Higher Ed (2024) — Teaching AI Ethics in the Classroom",
-        "url": "https://www.insidehighered.com/news/faculty-issues/teaching-learning/2024/03/28/teaching-ai-ethics-classroom",
-        "why": "Real-world approaches to ethical AI pedagogy."
-      },
-      {
-        "label": "Soka CTLE — Reflection-Based Integrity Assignments",
-        "url": "https://www.soka.edu/academics/undergraduate-programs/writing-center",
-        "why": "Guidance on reflection-based integrity."
+        "label": "UNESCO (2023) — Guidance for GenAI in Education",
+        "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+        "why": "Global ethical principles for AI in education."
       }
     ],
     "choices": [
@@ -387,11 +382,6 @@
         "label": "EDUCAUSE (2025) — Redefining Assessment",
         "url": "https://er.educause.edu/articles/2025/1/redefining-assessment-authentic-learning",
         "why": "Reflection-focused rubrics."
-      },
-      {
-        "label": "Soka CTLE — Reflective Portfolios & Learning Journals",
-        "url": "https://www.soka.edu/faculty-resources",
-        "why": "Process-focused assessment design."
       }
     ],
     "choices": [
@@ -491,9 +481,9 @@
         "why": "Transparency & reflection."
       },
       {
-        "label": "Soka CTLE — Co-Designing Classroom Norms",
+        "label": "Soka Institute for Global Solutions — Global Citizenship Resources",
         "url": "https://sigs.soka.edu/project_category/global-citizenship-education/",
-        "why": "Faculty-student partnership in course design."
+        "why": "Frameworks for collaborative learning."
       }
     ],
     "choices": [
@@ -525,9 +515,9 @@
         "why": "Scaling innovation."
       },
       {
-        "label": "Soka CTLE — Faculty Learning Cluster Program",
+        "label": "Soka News — Faculty Collaboration on Global Citizenship",
         "url": "https://www.soka.edu/news-events/news/fostering-global-citizens-every-grade-level-sua-alumni-reunite-sigs-education",
-        "why": "Connects faculty experimentation to institutional learning."
+        "why": "Example of collaborative faculty development."
       }
     ],
     "choices": [
