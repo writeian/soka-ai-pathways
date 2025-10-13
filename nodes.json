@@ -40,7 +40,7 @@
     "resources": [
       {
         "label": "HEPI (2023) — ChatGPT and \"AIgiarism\"",
-        "url": "https://www.hepi.ac.uk/2023/04/22/artificial-intelligence-chatgpt-and-aigiarism-what-are-the-implications-for-higher-education/",
+        "url": "https://www.scribd.com/document/898213081/Shaw-2025-plagio",
         "why": "Institutional and ethical dilemmas of AI bans."
       },
       {
@@ -50,7 +50,7 @@
       },
       {
         "label": "SUA Academic Honesty Policy",
-        "url": "https://catalog.soka.edu/our-mission",
+        "url": "https://catalog.soka.edu/academic-honesty",
         "why": "Institutional grounding for integrity."
       }
     ],
@@ -112,14 +112,14 @@
         "why": "Trust issues and false positive risks."
       },
       {
-        "label": "EDUCAUSE Review (2024) — Moving Beyond Detection",
-        "url": "https://er.educause.edu/articles/2024/4/moving-beyond-ai-detection-building-trust-through-authentic-assessment",
-        "why": "Relational approaches over surveillance."
+        "label": "Duke LILE — Authentic Assessment Over Surveillance",
+        "url": "https://lile.duke.edu/blog/2025/10/authentic-assessment-over-surveillance/",
+        "why": "Shifting from surveillance to authentic assessment."
       },
       {
-        "label": "arXiv (2023) — Contra AI Detection",
-        "url": "https://arxiv.org/abs/2312.05241",
-        "why": "Technical flaws of AI detection tools."
+        "label": "TEQSA — Evolving Risk to Academic Integrity",
+        "url": "https://www.teqsa.gov.au/sites/default/files/2024-08/evolving-risk-to-academic-integrity-posed-by-generative-artificial-intelligence.pdf",
+        "why": "Technical and legal analysis of detection tool flaws."
       }
     ],
     "choices": [
@@ -141,14 +141,14 @@
     "narrative": "Your records show near-perfect compliance. But course evaluations describe your class as \"serious, but tense.\" You reflect: integrity was upheld — yet engagement and empathy weakened. Have your choices supported SUA's vision of graduates leading contributive lives?",
     "resources": [
       {
-        "label": "EDUCAUSE Review (2024) — Rebuilding Trust in the AI Era",
-        "url": "https://er.educause.edu/articles/2024/6/rebuilding-trust-in-the-classroom-after-ai-disruption",
-        "why": "Strategies for repairing student-faculty relationships."
+        "label": "EdTech Magazine (2024) — Top IT Issues: Restoring Trust",
+        "url": "https://edtechmagazine.com/higher/article/2024/10/educause-2024-top-10-it-issues-list-seeks-restore-trust-higher-ed",
+        "why": "Strategies for repairing student-faculty relationships through trust."
       },
       {
-        "label": "Inside Higher Ed (2024) — When Prohibition Fails",
-        "url": "https://www.insidehighered.com/opinion/views/2024/11/18/why-ai-bans-dont-work-higher-education",
-        "why": "Reflects on costs of restrictive AI policies."
+        "label": "Max Planck Institute (2025) — AI Increases Dishonesty",
+        "url": "https://www.mpg.de/25409477/0916-bild-delegation-to-artificial-intelligence-can-increase-dishonest-behavior-149835-x",
+        "why": "Empirical evidence on AI delegation and dishonest behavior."
       },
       {
         "label": "SUA Mission & Values",
