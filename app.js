@@ -69,8 +69,6 @@ function renderNode(node, trail=''){
       </section>
 
       <section class="mt-6 flex items-center gap-3 text-sm">
-        <button class="underline" onclick="navigator.clipboard.writeText(location.href)">Copy link to this step</button>
-        <a class="underline" href="#node=R1&trail=${encodeURIComponent(newTrail)}">Jump to Meta‑Reflection</a>
         <a class="underline" href="#node=D1">Restart</a>
       </section>
     </article>
