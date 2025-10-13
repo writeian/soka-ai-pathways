@@ -44,9 +44,9 @@
         "why": "Institutional and ethical dilemmas of AI bans."
       },
       {
-        "label": "KQED MindShift (2024) — Why AI Writing Detectors Fail",
-        "url": "https://www.kqed.org/mindshift/60534/why-ai-writing-detectors-fail",
-        "why": "Detection-based policies are unreliable."
+        "label": "arXiv (2023) — Contra Generative AI Detection",
+        "url": "https://arxiv.org/abs/2312.05241",
+        "why": "Technical analysis of why AI detection tools are unreliable."
       },
       {
         "label": "SUA Academic Honesty Policy",
