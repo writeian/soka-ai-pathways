@@ -4,12 +4,12 @@
     "path": "shared",
     "pathLabel": "Shared Start",
     "title": "Designing a Mission-Aligned Seminar",
-    "narrative": "You are preparing an upper-level interdisciplinary seminar at Soka University of America, but you're facing a challenge. Since you last taught it, students' study habits have changed. Now they are accustomed to using ChatGPT and other generative AI tools. You know most use it for brainstorming and finding sources, but the international students rely on it heavily for translation. Additionally, you suspect some students use it for writing and have been able to avoid AI detection tools by using \"humanizers\" and other methods designed to evade detection. As you outline the syllabus, you consider how each possible stance on AI could cultivate SUA's values, including leadership in humanism, intercultural dialogue, and pacifism. As you always ask when designing a course: How can you instill the excitement of your advanced topic and encourage students to use its knowledge to live virtuous and contributive lives? You consider four positions: 1) prohibiting it outright; 2) allowing limited AI use; 3) permitting AI to support much of the work; and 4) designing the course to collaborate with students using AI tools. Each, you realize, involves risks and rewards. What will you choose?",
+    "narrative": "You are preparing an upper-level interdisciplinary seminar at Soka University of America, but you're facing a challenge. Since you last taught it, students' study habits have changed. Now they are accustomed to using ChatGPT and other generative AI tools. You know most use it for brainstorming and finding sources, but the international students rely on it heavily for translation. Additionally, you suspect some students use it for writing and have been able to avoid AI detection tools by using \"humanizers\" and other methods designed to evade detection. As you outline the syllabus, you consider how each possible stance on AI could cultivate SUA's values, including leadership in humanism, intercultural dialogue, and pacifism. As you always ask when designing a course: How can you instill the excitement of your advanced topic and encourage students to use its knowledge to live virtuous and contributive lives? You consider five positions: 1) ignoring the issue and deferring decisions; 2) prohibiting AI outright; 3) allowing limited, ethical AI use; 4) permitting AI to support much of the work; and 5) designing the course to collaborate with students using AI tools. Each, you realize, involves risks and rewards. What will you choose?",
     "resources": [
       {
         "label": "Soka University Mission",
-        "url": "https://www.soka.edu/about-soka/mission-vision",
-        "why": "Ground course goals in SUA’s mission."
+        "url": "https://www.soka.edu/about/suas-heritage/mission-and-values",
+        "why": "Ground course goals in SUA's mission."
       }
     ],
     "choices": [
@@ -592,7 +592,7 @@
     "resources": [
       {
         "label": "SUA Mission and Values",
-        "url": "https://www.soka.edu/about-soka/mission-vision",
+        "url": "https://www.soka.edu/about/suas-heritage/mission-and-values",
         "why": "Anchor reflections in founding principles."
       }
     ],
