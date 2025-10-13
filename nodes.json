@@ -62,14 +62,6 @@
       {
         "label": "Continue deferring",
         "to": "I2"
-      },
-      {
-        "label": "Acknowledge the integrity failure (switch to Prohibitive)",
-        "to": "P1"
-      },
-      {
-        "label": "Shift to literacy focus (switch to Balanced)",
-        "to": "B1"
       }
     ]
   },
