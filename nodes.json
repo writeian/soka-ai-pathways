@@ -608,12 +608,17 @@
     "path": "collaborative",
     "pathLabel": "Collaborative",
     "title": "Community Storytelling Lab",
-    "narrative": "Your seminar partners with the Center for Global Citizenship to host a community storytelling lab. Student teams craft guidelines for using AI to support oral histories from local activists. They debate whether AI summaries honor or flatten lived experience, anchoring decisions in SUA's principle of educating leaders of culture in the community.",
+    "narrative": "Your seminar partners with the Writing Center to host a community storytelling lab. Student teams craft guidelines for using AI to support oral histories from local activists. They debate whether AI summaries honor or flatten lived experience, anchoring decisions in SUA's principle of educating leaders of culture in the community.",
     "resources": [
       {
-        "label": "Soka Institute for Global Solutions",
-        "url": "https://sigs.soka.edu/",
-        "why": "SIGS mission-aligned collaborative community projects."
+        "label": "Helping Writers Become Authors — Intentional Storytelling in the AI Era",
+        "url": "https://www.helpingwritersbecomeauthors.com/why-intentional-storytelling-matters-in-an-era-of-ai-and-algorithm-driven-content/",
+        "why": "How AI risks losing an authentic voice in storytelling."
+      },
+      {
+        "label": "The Guardian (2025) — AI as a Tool to Sharpen Storytelling",
+        "url": "https://www.theguardian.com/technology/2025/mar/31/ai-is-a-tool-that-can-sharpen-storytelling",
+        "why": "AI can improve storytelling, but only if used well."
       },
       {
         "label": "University Writing Center",
