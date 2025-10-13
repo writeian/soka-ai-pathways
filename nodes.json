@@ -107,14 +107,14 @@
     "narrative": "You implement AI detection software and restate strict consequences. Midterm, a false flag occurs — a student accused of AI use insists on innocence. The process consumes hours of investigation alongside meetings with the Dean of Students about due-process and dignity. Students stop visiting office hours; compliance rises, curiosity drops.",
     "resources": [
       {
-        "label": "Inside Higher Ed (2024) — False AI Accusations",
-        "url": "https://www.insidehighered.com/news/faculty-issues/2024/02/13/faculty-fallout-false-ai-accusations",
-        "why": "Due-process and trust breakdowns."
+        "label": "Inside Higher Ed (2024) — The Risks of AI Detection",
+        "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2024/02/12/professors-student-approach-ai-detection",
+        "why": "Trust issues and false positive risks."
       },
       {
-        "label": "EDUCAUSE Review (2024) — Integrity and Care",
-        "url": "https://er.educause.edu/articles/2024/1/integrity-and-care-rethinking-academic-honesty-in-the-ai-era",
-        "why": "Relational integrity frameworks."
+        "label": "EDUCAUSE Review (2024) — Moving Beyond Detection",
+        "url": "https://er.educause.edu/articles/2024/4/moving-beyond-ai-detection-building-trust-through-authentic-assessment",
+        "why": "Relational approaches over surveillance."
       },
       {
         "label": "arXiv (2023) — Contra AI Detection",
