@@ -73,14 +73,14 @@
     "narrative": "A multilingual student confides: \"I only use AI to translate readings so I can understand class discussion.\" You reaffirm your rule: each student should rely on their own effort to develop language skills. You remind yourself the policy safeguards fairness, yet you wonder how it aligns with SUA's call to foster leaders of humanism. Participation drops, and you sense growing distance.",
     "resources": [
       {
-        "label": "EDUCAUSE Review (2024) — AI and Language Learning",
-        "url": "https://er.educause.edu/articles/2024/5/ai-and-language-learning-navigating-opportunities-and-challenges",
-        "why": "Explores equity issues in AI-assisted language learning."
+        "label": "EAIE (2025) — AI and Language Learning",
+        "url": "https://www.eaie.org/resource/embracing-ai-in-international-higher-education-transforming-learning-supporting-diversity-and-preparing-for-the-future.html",
+        "why": "AI promoting accessibility and inclusivity for international students facing language barriers."
       },
       {
-        "label": "Inside Higher Ed (2024) — AI Translation Tools and International Students",
-        "url": "https://www.insidehighered.com/news/faculty-issues/teaching-learning/2024/09/19/ai-translation-tools-and-international-students",
-        "why": "Discusses fairness and access for multilingual learners."
+        "label": "Center for Engaged Learning (2024) — AI Translation Tools",
+        "url": "https://www.centerforengagedlearning.org/using-generative-ai-to-support-global-learning-could-leave-cultural-lessons-lost-in-translation/",
+        "why": "Risk of losing cultural context and intercultural understanding with AI translation."
       },
       {
         "label": "UNESCO (2023) — Guidance for GenAI",
@@ -107,9 +107,9 @@
     "narrative": "You implement AI detection software and restate strict consequences. Midterm, a false flag occurs — a student accused of AI use insists on innocence. The process consumes hours of investigation alongside meetings with the Dean of Students about due-process and dignity. Students stop visiting office hours; compliance rises, curiosity drops.",
     "resources": [
       {
-        "label": "Inside Higher Ed (2024) — The Risks of AI Detection",
-        "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2024/02/12/professors-student-approach-ai-detection",
-        "why": "Trust issues and false positive risks."
+        "label": "Policy Brief (2025) — Rethinking AI Detection Tools",
+        "url": "https://idaho.pressbooks.pub/airesourceguide/chapter/policy-brief-rethinking-ai-detection-tools-in-higher-education/",
+        "why": "Limitations and ethical risks of detection tools, emphasizing false positives and erosion of trust."
       },
       {
         "label": "Duke LILE — Authentic Assessment Over Surveillance",
