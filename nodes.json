@@ -175,19 +175,19 @@
     "narrative": "You're drafting a syllabus for a new upper-level interdisciplinary seminar at Soka University of America. You know that students already use AI for translation, brainstorming, and writing support. Rather than ban it, you design a short unit on \"Responsible AI Use\" that ties directly to SUA's value of fostering leaders of humanism who can engage difference with empathy. Students will practice writing with and without AI, comparing their processes and reflecting on what they learn.",
     "resources": [
       {
-        "label": "EDUCAUSE Review (2024) — A Framework for AI Literacy",
-        "url": "https://er.educause.edu/articles/2024/6/a-framework-for-ai-literacy",
-        "why": "Foundational model for curricular framing."
+        "label": "EDUCAUSE (2024) — A Framework for AI Literacy",
+        "url": "https://www.educause.edu/content/2024/ai-literacy-in-teaching-and-learning/introduction",
+        "why": "Comprehensive framework for AI literacy in teaching and learning."
       },
       {
         "label": "UNESCO (2023) — Guidance for GenAI in Education",
         "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
-        "why": "Global ethical principles."
+        "why": "Global ethical principles for human-centered AI integration."
       },
       {
         "label": "Soka University Mission Statement",
         "url": "https://www.soka.edu/about-soka/mission-vision",
-        "why": "Frames AI use as global citizenship."
+        "why": "Frames AI use as developing global citizens."
       }
     ],
     "choices": [
@@ -209,9 +209,9 @@
     "narrative": "Week three. Students bring examples of AI output alongside their own writing. They identify what AI captures — and what it misses. Discussion turns lively: \"How do we know when AI's help becomes substitution?\" You surface SUA's mission and values, asking which uses cultivate leaders of culture in the community. You realize they're not just learning writing — they're learning judgment.",
     "resources": [
       {
-        "label": "EDUCAUSE Review (2024) — A Framework for AI Literacy",
-        "url": "https://er.educause.edu/articles/2024/6/a-framework-for-ai-literacy",
-        "why": "Practical classroom strategies for teaching AI literacy."
+        "label": "EDUCAUSE (2024) — A Framework for AI Literacy (Executive Summary)",
+        "url": "https://www.educause.edu/content/2024/ai-literacy-in-teaching-and-learning/executive-summary",
+        "why": "Practical student and faculty competencies for ethical AI use."
       },
       {
         "label": "UNESCO (2023) — Guidance for GenAI in Education",
@@ -238,14 +238,14 @@
     "narrative": "Together, the class revises its \"AI Use Agreement.\" Students agree to cite AI assistance, reflect on their process, and take responsibility for final ideas. You highlight alignment with SUA's aim to foster leaders of culture who act with integrity. You notice improved confidence in emerging writers and fewer integrity concerns. Still, updating and clarifying the policy each semester takes time. Some colleagues worry: \"Won't this gray area confuse students?\"",
     "resources": [
       {
-        "label": "Inside Higher Ed (2025) — Shaping the Future Before It Shapes Us",
-        "url": "https://www.insidehighered.com/opinion/columns/learning-innovation/2025/03/04/ai-and-education-shaping-future-it-shapes-us",
-        "why": "Guidance-based policies."
+        "label": "Campbell University — AI in Higher Education Survey",
+        "url": "https://sites.campbell.edu/academictechnology/2025/03/06/ai-in-higher-education-a-summary-of-recent-surveys-of-students-and-faculty/",
+        "why": "Need for transparent policies and self-regulation."
       },
       {
-        "label": "Inside Higher Ed (2025) — Students' Views on AI",
-        "url": "https://www.insidehighered.com/news/students/academics/2025/08/29/survey-college-students-views-ai",
-        "why": "Transparency & self-regulation."
+        "label": "ResearchGate — Students' Acceptance and Self-Regulation of GenAI",
+        "url": "https://www.researchgate.net/publication/391714234_Examining_the_Relationship_between_Undergraduate_Students'_Acceptance_Anxiety_and_Online_Self-Regulation_of_Generative_Artificial_Intelligence",
+        "why": "Self-regulation skills and GenAI acceptance."
       }
     ],
     "choices": [
@@ -269,12 +269,12 @@
       {
         "label": "Soka University Mission Statement",
         "url": "https://www.soka.edu/about-soka/mission-vision",
-        "why": "Connects ethical literacy to contributive lives."
+        "why": "Connects ethical literacy and dialogue-driven outcomes to contributive life."
       },
       {
-        "label": "arXiv (2023) — Contra Generative AI Detection",
-        "url": "https://arxiv.org/abs/2312.05241",
-        "why": "Technical and ethical analysis of AI in education."
+        "label": "Wageningen University — In AI We Trust?",
+        "url": "https://research.wur.nl/en/publications/in-ai-we-trust-ethics-artificial-intelligence-and-reliability",
+        "why": "Human judgment and wisdom must lead, not mere reliance on technology."
       }
     ],
     "choices": [
@@ -588,9 +588,9 @@
         "why": "Ground AI decisions in institutional commitments."
       },
       {
-        "label": "Pacific Basin Research Center — Human Rights Initiatives",
-        "url": "https://www.soka.edu/pbrc",
-        "why": "Examples of community-engaged scholarship."
+        "label": "Pacific Basin Research Center",
+        "url": "https://www.soka.edu/academics/research/pacific-basin-research-center/about",
+        "why": "PBRC's mission for humanistic development and human rights in Asia-Pacific."
       },
       {
         "label": "UNESCO (2023) — Guidance for GenAI in Education",
