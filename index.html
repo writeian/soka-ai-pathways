@@ -5,15 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Soka AI Approaches Explorer</title>
   <meta name="description" content="Choose-your-own-path explorer for AI in the classroom at Soka University of America." />
+  <!-- Google Fonts: Playfair Display (serif, similar to PP Editorial New) and Inter (sans-serif, similar to Elza) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <!-- Tailwind via CDN (for quick prototype) -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'serif': ['Playfair Display', 'Georgia', 'serif'],
+            'sans': ['Inter', 'Arial', 'sans-serif']
+          },
+          colors: {
+            'soka-blue': '#0048B7',
+            'soka-yellow': '#FCD43B',
+            'deep-reflection': '#001D61',
+            'golden-saffron': '#FFE20D',
+            'global-green': '#249E6B',
+            'infinite-ocean': '#66B0FF'
+          }
+        }
+      }
+    }
+  </script>
   <style>
-    .badge { border-radius: 9999px; padding: 0.125rem 0.5rem; font-size: .75rem; font-weight: 600; }
-    .path-shared { background:#e5e7eb; color:#111827; }
-    .path-prohibitive { background:#fee2e2; color:#991b1b; }
-    .path-balanced { background:#fef9c3; color:#854d0e; }
-    .path-embracing { background:#dcfce7; color:#065f46; }
-    .path-collaborative { background:#dbeafe; color:#1e3a8a; }
+    .badge { 
+      border-radius: 9999px; 
+      padding: 0.25rem 0.75rem; 
+      font-size: .75rem; 
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .path-shared { background:#E5E7EB; color:#111827; }
+    .path-prohibitive { background:#001D61; color:#FFFFFF; } /* Deep Reflection */
+    .path-balanced { background:#FFE20D; color:#000000; } /* Golden Saffron */
+    .path-embracing { background:#249E6B; color:#FFFFFF; } /* Global Green */
+    .path-collaborative { background:#66B0FF; color:#000000; } /* Infinite Ocean */
     /* Screen reader only content */
     .sr-only {
       position: absolute;
@@ -28,7 +59,7 @@
     }
   </style>
 </head>
-<body class="bg-gray-50 text-gray-900">
+<body class="bg-gradient-to-br from-gray-50 to-blue-50 text-gray-900 font-sans">
   <main id="app" class="min-h-screen p-4 sm:p-8" aria-live="polite" role="main"></main>
 
   <script type="module" src="./app.js"></script>
