@@ -553,11 +553,6 @@
     "narrative": "You anchor the seminar in a human-rights case study drawn from the Pacific Basin. Teams map how AI could support research, storytelling, or advocacy, documenting risks to dignity and accuracy. Students connect decisions to SUA's founding principle of upholding human rights. Debate runs hot when one team argues AI translation could amplify marginalized voices faster.",
     "resources": [
       {
-        "label": "SUA Mission and Values",
-        "url": "https://www.soka.edu/about-soka/mission-vision",
-        "why": "Ground AI decisions in institutional commitments."
-      },
-      {
         "label": "Pacific Basin Research Center",
         "url": "https://www.soka.edu/academics/research/pacific-basin-research-center/about",
         "why": "PBRC's mission for humanistic development and human rights in Asia-Pacific."
@@ -629,11 +624,6 @@
         "label": "University Writing Center",
         "url": "https://catalog.soka.edu/university-writing-center",
         "why": "Writing support for ethical narrative practices."
-      },
-      {
-        "label": "SUA Mission and Values",
-        "url": "https://www.soka.edu/about-soka/mission-vision",
-        "why": "Keep the lab anchored in institutional principles."
       }
     ],
     "choices": [
