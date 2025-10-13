@@ -1,6 +1,14 @@
 async function loadNodes(){ 
-  const res = await fetch('./nodes.json', {cache:'no-store'});
-  return res.json();
+  try {
+    const res = await fetch('./nodes.json', {cache:'no-store'});
+    if (!res.ok) {
+      throw new Error(`Failed to load content (${res.status})`);
+    }
+    return await res.json();
+  } catch (error) {
+    console.error('Error loading nodes:', error);
+    throw error;
+  }
 }
 function getParam(name){
   const m = location.hash.match(new RegExp(name+'=([^&]+)'));
@@ -32,7 +40,7 @@ function renderNode(node, trail=''){
       <header class="flex items-start justify-between gap-3">
         <div>
           <p class="badge ${pathClass(node.path)}">${(node.pathLabel||'')}</p>
-          <h1 class="text-2xl font-bold mt-2">${node.title}</h1>
+          <h1 id="page-title" tabindex="-1" class="text-2xl font-bold mt-2">${node.title}</h1>
         </div>
         <div class="text-right text-xs text-gray-500">
           <div>Node: <code>${node.id}</code></div>
@@ -46,7 +54,10 @@ function renderNode(node, trail=''){
           <h2 class="font-semibold">Resources</h2>
           <ul class="list-disc ml-5 mt-2 space-y-1">
             ${node.resources.map(r=>`<li>
-              <a class="underline" href="${r.url}" target="_blank" rel="noreferrer">${r.label}</a>
+              <a class="underline" href="${r.url}" target="_blank" rel="noopener noreferrer">
+                ${r.label}
+                <span class="sr-only">(opens in new tab)</span>
+              </a>
               ${r.why ? `<span class="text-sm text-gray-600"> — ${r.why}</span>` : ''}
             </li>`).join('')}
           </ul>
@@ -64,15 +75,55 @@ function renderNode(node, trail=''){
       </section>
     </article>
   `;
+  
+  // Move focus to the new heading for screen reader users
+  const heading = document.getElementById('page-title');
+  if (heading) {
+    heading.focus();
+  }
 }
 
 (async function init(){
-  const nodes = await loadNodes();
-  function update(){
-    const nodeId = getNodeFromHash();
-    const trail = getTrailFromHash();
-    renderNode(nodes[nodeId], trail);
+  const app = document.getElementById('app');
+  
+  // Show loading state
+  app.innerHTML = '<div class="max-w-3xl mx-auto p-6 text-center text-gray-600">Loading pathways...</div>';
+  
+  try {
+    const nodes = await loadNodes();
+    
+    function update(){
+      const nodeId = getNodeFromHash();
+      const trail = getTrailFromHash();
+      renderNode(nodes[nodeId], trail);
+    }
+    
+    window.addEventListener('hashchange', update);
+    update();
+  } catch (error) {
+    // Show user-friendly error message
+    app.innerHTML = `
+      <div class="max-w-3xl mx-auto p-6 bg-red-50 rounded-2xl shadow border border-red-200">
+        <h1 class="text-2xl font-bold text-red-900 mb-3">Unable to Load Content</h1>
+        <p class="text-red-800 mb-4">
+          We encountered an error loading the AI Pathways Explorer. This might be due to a network issue or browser cache problem.
+        </p>
+        <div class="space-y-2">
+          <button onclick="location.reload()" class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">
+            Retry
+          </button>
+          <p class="text-sm text-red-700 mt-4">
+            If the problem persists, try:<br>
+            • Refreshing your browser (Cmd+R or Ctrl+R)<br>
+            • Clearing your browser cache<br>
+            • Using a different browser
+          </p>
+        </div>
+        <details class="mt-4 text-xs text-red-600">
+          <summary class="cursor-pointer">Technical details</summary>
+          <pre class="mt-2 p-2 bg-red-100 rounded overflow-auto">${error.message || error}</pre>
+        </details>
+      </div>
+    `;
   }
-  window.addEventListener('hashchange', update);
-  update();
 })();

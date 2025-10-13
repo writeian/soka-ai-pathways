@@ -14,10 +14,22 @@
     .path-balanced { background:#fef9c3; color:#854d0e; }
     .path-embracing { background:#dcfce7; color:#065f46; }
     .path-collaborative { background:#dbeafe; color:#1e3a8a; }
+    /* Screen reader only content */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
   </style>
 </head>
 <body class="bg-gray-50 text-gray-900">
-  <main id="app" class="min-h-screen p-4 sm:p-8"></main>
+  <main id="app" class="min-h-screen p-4 sm:p-8" aria-live="polite" role="main"></main>
 
   <script type="module" src="./app.js"></script>
 </body>
