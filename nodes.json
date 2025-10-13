@@ -298,7 +298,7 @@
     "path": "embracing",
     "pathLabel": "AI\u2011Embracing",
     "title": "Rethinking the Assignment",
-    "narrative": "You convert a major paper into an AI\u2011Reflection Portfolio: prompts, outputs, and what was learned.",
+    "narrative": "You sit at your desk drafting the syllabus for your new interdisciplinary course. You know students already use AI for brainstorming and translation. Instead of policing that reality, you wonder: \"What if I invited AI use as part of the process itself?\" You rewrite a major paper assignment into an \"AI-Reflection Portfolio,\" where students must document prompts, evaluate AI output, and annotate what they learned about thinking itself.",
     "resources": [
       {
         "label": "TEQSA (2025) \u2014 Assessment Redesign",
@@ -309,6 +309,11 @@
         "label": "EDUCAUSE Review (2024) \u2014 Beyond Integrity",
         "url": "https://er.educause.edu/articles/2024/08/beyond-integrity-ai-learning",
         "why": "Integrating AI as learning tool."
+      },
+      {
+        "label": "Soka University Mission Statement",
+        "url": "https://www.soka.edu/about/mission",
+        "why": "Links creative redesign to wisdom and global citizenship."
       }
     ],
     "choices": [
@@ -327,12 +332,17 @@
     "path": "embracing",
     "pathLabel": "AI\u2011Embracing",
     "title": "First Iteration",
-    "narrative": "Some reflections are deep; others over\u2011rely on AI. You model critical use and question assumptions.",
+    "narrative": "Students experiment with AI during early drafts. Some produce nuanced reflections; others hand in work too dependent on the tool. In discussion, you model critical use: showing how to question AI's assumptions. The room fills with energy — half excitement, half uncertainty. One student says, \"I've never thought so much about how I write.\"",
     "resources": [
       {
         "label": "Inside Higher Ed (2024) \u2014 AI\u2011Assisted Drafting",
         "url": "https://www.insidehighered.com/news/2024/04/22/faculty-innovate-ai-assisted-drafting",
         "why": "Transparent AI integration."
+      },
+      {
+        "label": "Harvard GSE (2024) \u2014 Metacognitive Awareness",
+        "url": "https://www.gse.harvard.edu/news/metacognitive-awareness-ai",
+        "why": "How reflection on process deepens learning."
       },
       {
         "label": "UNESCO (2023) \u2014 GenAI in Education",
@@ -356,7 +366,7 @@
     "path": "embracing",
     "pathLabel": "AI\u2011Embracing",
     "title": "The Assessment Challenge",
-    "narrative": "Grading portfolios is slower. New criteria center growth, insight, and self\u2011reflection.",
+    "narrative": "Grading portfolios takes longer than expected. You realize authentic work requires new evaluation criteria — growth, insight, and self-reflection now matter more than grammar or format. A peer asks, \"Isn't this subjective?\" You reply, \"Maybe — but so is learning.\" By mid-semester, students begin referencing AI critically in discussions about ethics, bias, and creativity.",
     "resources": [
       {
         "label": "OECD (2024) \u2014 10 Guidelines",
@@ -367,6 +377,11 @@
         "label": "EDUCAUSE (2025) \u2014 Redefining Assessment",
         "url": "https://er.educause.edu/articles/2025/01/redefining-assessment-authentic-learning",
         "why": "Reflection\u2011focused rubrics."
+      },
+      {
+        "label": "Soka CTLE \u2014 Reflective Portfolios & Learning Journals",
+        "url": "https://www.soka.edu/academics/ctle",
+        "why": "Process\u2011focused assessment design."
       }
     ],
     "choices": [
@@ -385,7 +400,7 @@
     "path": "embracing",
     "pathLabel": "AI\u2011Embracing",
     "title": "Outcome: Innovation and Depth",
-    "narrative": "Students present honest, reflective projects. Authorship clarity improves; workload remains real.",
+    "narrative": "At semester's end, students present reflective projects titled \"What I Learned From My AI Mistakes.\" Their work is messy, honest, and profound. Some still rely too much on the tool, but most articulate a clearer sense of authorship. You feel both exhausted and inspired. When you present at a CTLE roundtable, a colleague says, \"This feels like the future of Soka education — humanistic, creative, responsible.\"",
     "resources": [
       {
         "label": "Inside Higher Ed (2025) \u2014 AI\u2011Ready Classroom",
@@ -396,6 +411,11 @@
         "label": "EDUCAUSE Review (2025) \u2014 Faculty Voices",
         "url": "https://er.educause.edu/articles/2025/02/faculty-voices-authentic-ai-learning",
         "why": "Authentic learning with AI."
+      },
+      {
+        "label": "Soka University Mission Statement",
+        "url": "https://www.soka.edu/about/mission",
+        "why": "Connects authentic learning to wisdom, courage, and compassion."
       }
     ],
     "choices": [
