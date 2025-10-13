@@ -39,9 +39,9 @@
     "narrative": "You draft your new course policy: \"AI-generated text is not permitted on any assignments.\" You frame it as protecting academic honesty and human dignity. You also point to SUA's commitment to be philosophers of a renaissance of life, pointing out that allowing machines to think for us or do our work appears to be the opposite of this motto. Finally, you point out that many important leaders have begun to sound the alarm on the potential destructive power of AI, and if your job is to help train the \"pioneers of a global civilization,\" then humanity should be resisting AI, not embracing it, for it is already becoming weaponized. Students nod, although many seem unconvinced. One international student reluctantly and privately asks if translation tools count, while another asks if they can use Grammarly or Microsoft Word's \"algorithmic grammar correction\" tools.",
     "resources": [
       {
-        "label": "HEPI (2023) — ChatGPT and \"AIgiarism\"",
-        "url": "https://www.scribd.com/document/898213081/Shaw-2025-plagio",
-        "why": "Institutional and ethical dilemmas of AI bans."
+        "label": "Frontiers in Psychology (2024) — From Tools to Threats",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11020077/",
+        "why": "Impact of AI chatbots on cognitive health and reliance concerns."
       },
       {
         "label": "PeerJ Computer Science (2025) — AI Detection Accuracy-Bias Trade-offs",
