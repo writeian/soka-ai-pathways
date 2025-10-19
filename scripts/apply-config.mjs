@@ -145,11 +145,16 @@ config.resources = {
   integrityPolicyLabel: resources['Academic Integrity Policy Label'] || 'Academic Honesty Policy'
 };
 
+// Enforce required URLs when toggles are enabled
 if (config.resources.hasResearchCenter) {
+  validateRequired(config.resources.researchCenterName, 'Research Center Name');
+  validateRequired(config.resources.researchCenterUrl, 'Research Center URL');
   validateUrl(config.resources.researchCenterUrl, 'Research Center URL');
   console.log(`  Research Center: ${config.resources.researchCenterName}`);
 }
 if (config.resources.hasWritingCenter) {
+  validateRequired(config.resources.writingCenterName, 'Writing Center Name');
+  validateRequired(config.resources.writingCenterUrl, 'Writing Center URL');
   validateUrl(config.resources.writingCenterUrl, 'Writing Center URL');
   console.log(`  Writing Center: ${config.resources.writingCenterName}`);
 }

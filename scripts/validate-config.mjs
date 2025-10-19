@@ -59,36 +59,40 @@ try {
 
 // Load and validate custom nodes
 try {
-  const nodes = JSON.parse(fs.readFileSync(NODES_PATH, 'utf8'));
-  
-  console.log('Validating custom-nodes.json...');
-  
-  const nodeCount = Object.keys(nodes).length;
-  let resourceCount = 0;
-  let choiceCount = 0;
-  
-  Object.entries(nodes).forEach(([id, node]) => {
-    // Validate resources
-    if (node.resources) {
-      node.resources.forEach((r, i) => {
-        if (!r.label) warnings.push(`${id} resource ${i+1}: Missing label`);
-        if (!r.url) warnings.push(`${id} resource ${i+1}: Missing URL`);
-        else if (!isValidUrl(r.url)) errors.push(`${id} resource ${i+1}: Invalid URL`);
-        resourceCount++;
-      });
-    }
+  if (fs.existsSync(NODES_PATH)) {
+    const nodes = JSON.parse(fs.readFileSync(NODES_PATH, 'utf8'));
     
-    // Validate choices
-    if (node.choices) {
-      node.choices.forEach((c, i) => {
-        if (!c.label) warnings.push(`${id} choice ${i+1}: Missing label`);
-        if (!c.to) errors.push(`${id} choice ${i+1}: Missing destination`);
-        choiceCount++;
-      });
-    }
-  });
-  
-  console.log(`  ✓ Validated ${nodeCount} nodes, ${resourceCount} resources, ${choiceCount} choices\n`);
+    console.log('Validating custom-nodes.json...');
+    
+    const nodeCount = Object.keys(nodes).length;
+    let resourceCount = 0;
+    let choiceCount = 0;
+    
+    Object.entries(nodes).forEach(([id, node]) => {
+      // Validate resources
+      if (node.resources) {
+        node.resources.forEach((r, i) => {
+          if (!r.label) warnings.push(`${id} resource ${i+1}: Missing label`);
+          if (!r.url) warnings.push(`${id} resource ${i+1}: Missing URL`);
+          else if (!isValidUrl(r.url)) errors.push(`${id} resource ${i+1}: Invalid URL`);
+          resourceCount++;
+        });
+      }
+      
+      // Validate choices
+      if (node.choices) {
+        node.choices.forEach((c, i) => {
+          if (!c.label) warnings.push(`${id} choice ${i+1}: Missing label`);
+          if (!c.to) errors.push(`${id} choice ${i+1}: Missing destination`);
+          choiceCount++;
+        });
+      }
+    });
+    
+    console.log(`  ✓ Validated ${nodeCount} nodes, ${resourceCount} resources, ${choiceCount} choices\n`);
+  } else {
+    console.log('ℹ️  No custom-nodes.json found (no customizations applied)\n');
+  }
   
 } catch (error) {
   errors.push(`Cannot read custom-nodes.json: ${error.message}`);
