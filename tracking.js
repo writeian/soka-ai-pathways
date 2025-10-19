@@ -75,7 +75,7 @@ class UserTracker {
     }
   }
 
-  async submitReflection(protected, risked, learned, nextStep) {
+  async submitReflection(protectedVal, riskedVal, learnedVal, nextStepVal) {
     const user = this.getUser();
     
     try {
@@ -89,10 +89,10 @@ class UserTracker {
           type: 'reflection',
           userId: user.id,
           userName: user.name || 'Anonymous',
-          protected,
-          risked,
-          learned,
-          nextStep
+          protected: protectedVal,
+          risked: riskedVal,
+          learned: learnedVal,
+          nextStep: nextStepVal
         })
       });
       return true;
