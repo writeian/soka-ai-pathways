@@ -19,6 +19,11 @@ const DEFAULT_CONFIG = {
       balanced: "#FFE20D",
       embracing: "#249E6B",
       collaborative: "#66B0FF"
+    },
+    fonts: {
+      heading: "Playfair Display",
+      body: "Inter",
+      fallback: "Arial"
     }
   },
   values: {
@@ -26,7 +31,13 @@ const DEFAULT_CONFIG = {
     value1: "humanism",
     value2: "intercultural dialogue",
     value3: "pacifism",
-    value4: "contributive lives"
+    value4: "contributive lives",
+    principles: [
+      "leaders of culture in the community",
+      "leaders of humanism in society",
+      "leaders of pacifism in the world",
+      "creative coexistence of nature and humanity"
+    ]
   },
   resources: {
     hasResearchCenter: true,
@@ -36,11 +47,13 @@ const DEFAULT_CONFIG = {
     writingCenterName: "Writing Center",
     writingCenterUrl: "https://catalog.soka.edu/university-writing-center",
     integrityPolicyUrl: "https://catalog.soka.edu/academic-honesty",
-    integrityPolicyLabel: "SUA Academic Honesty Policy"
+    integrityPolicyLabel: "SUA Academic Honesty Policy",
+    instituteUrl: "https://sigs.soka.edu/"
   },
   metadata: {
     siteName: "Soka AI Pathways Explorer",
-    description: "Choose-your-own-path explorer for AI in the classroom at Soka University of America"
+    description: "Choose-your-own-path explorer for AI in the classroom at Soka University of America",
+    workshopYear: 2025
   }
 };
 
@@ -91,8 +104,8 @@ export async function loadNodesWithConfig() {
     // Load config first
     const config = await loadConfig();
     
-    // Load base nodes (current nodes.json)
-    const baseResponse = await fetch('./nodes.json', { cache: 'no-store' });
+    // Load base nodes template
+    const baseResponse = await fetch('./data/nodes-base.json', { cache: 'no-store' });
     if (!baseResponse.ok) {
       throw new Error('Failed to load base nodes');
     }

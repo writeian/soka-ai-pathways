@@ -29,7 +29,7 @@ function pathClass(path){
   }
 }
 
-function showWelcomeScreen(callback) {
+async function showWelcomeScreen(config, callback) {
   const app = document.getElementById('app');
   const user = tracker.getUser();
   
@@ -39,9 +39,10 @@ function showWelcomeScreen(callback) {
     return;
   }
 
+  const siteName = config.metadata.siteName || 'AI Pathways Explorer';
   app.innerHTML = `
     <div class="max-w-2xl mx-auto p-8 bg-white rounded-2xl shadow-lg border-2" style="border-color: var(--color-primary)">
-      <h1 class="font-serif text-3xl font-bold mb-4" style="color: var(--color-primary)">Welcome to AI Pathways Explorer</h1>
+      <h1 class="font-serif text-3xl font-bold mb-4" style="color: var(--color-primary)">Welcome to ${siteName}</h1>
       <p class="text-lg text-gray-700 leading-relaxed mb-6">
         This interactive experience explores different approaches to AI in the classroom. 
         Your journey will be tracked locally in your browser to help us improve the workshop.
@@ -240,8 +241,12 @@ function renderNode(node, trail=''){
   const config = await loadConfig();
   applyColorsToDOM(config);
   
-  // Update page title
-  document.title = config.metadata.siteName;
+  // Update page title and meta description
+  document.title = config.metadata.siteName || 'AI Pathways Explorer';
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) {
+    metaDesc.content = config.metadata.description || 'Interactive explorer for AI pedagogy approaches';
+  }
   
   // Show loading state
   app.innerHTML = '<div class="max-w-4xl mx-auto p-8 text-center"><div class="animate-pulse font-serif text-xl" style="color: var(--color-primary)">Loading pathways...</div></div>';
@@ -258,7 +263,7 @@ function renderNode(node, trail=''){
     window.addEventListener('hashchange', update);
     
     // Show welcome screen first, then start
-    showWelcomeScreen(() => {
+    await showWelcomeScreen(config, () => {
       update();
     });
   } catch (error) {
