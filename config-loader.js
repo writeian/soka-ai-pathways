@@ -6,7 +6,9 @@ const DEFAULT_CONFIG = {
   institution: {
     name: "Soka University of America",
     shortName: "SUA",
-    missionUrl: "https://www.soka.edu/about/suas-heritage/mission-and-values"
+    possessive: "Soka's",
+    missionUrl: "https://www.soka.edu/about/suas-heritage/mission-and-values",
+    missionLinkLabel: "Soka University Mission"
   },
   branding: {
     primaryColor: "#0048B7",
@@ -58,8 +60,37 @@ export async function loadConfig() {
   }
 }
 
+function applyPlaceholders(text, config) {
+  if (!text || typeof text !== 'string') return text;
+  
+  return text
+    // Institution
+    .replace(/\{\{institution\}\}/g, config.institution.name)
+    .replace(/\{\{institution_short\}\}/g, config.institution.shortName)
+    .replace(/\{\{institution_possessive\}\}/g, config.institution.possessive)
+    .replace(/\{\{mission_label\}\}/g, config.institution.missionLinkLabel)
+    // URLs
+    .replace(/\{\{mission_url\}\}/g, config.institution.missionUrl)
+    .replace(/\{\{integrity_url\}\}/g, config.resources.integrityPolicyUrl)
+    .replace(/\{\{research_center_url\}\}/g, config.resources.researchCenterUrl || '')
+    .replace(/\{\{writing_center_url\}\}/g, config.resources.writingCenterUrl || '')
+    .replace(/\{\{institution_institute_url\}\}/g, config.resources.instituteUrl || 'https://sigs.soka.edu/')
+    // Values
+    .replace(/\{\{motto\}\}/g, config.values.motto)
+    .replace(/\{\{value1\}\}/g, config.values.value1)
+    .replace(/\{\{value2\}\}/g, config.values.value2)
+    .replace(/\{\{value3\}\}/g, config.values.value3)
+    .replace(/\{\{value4\}\}/g, config.values.value4)
+    // Resources
+    .replace(/\{\{research_center\}\}/g, config.resources.researchCenterName || 'Research Center')
+    .replace(/\{\{writing_center\}\}/g, config.resources.writingCenterName || 'Writing Center');
+}
+
 export async function loadNodesWithConfig() {
   try {
+    // Load config first
+    const config = await loadConfig();
+    
     // Load base nodes (current nodes.json)
     const baseResponse = await fetch('./nodes.json', { cache: 'no-store' });
     if (!baseResponse.ok) {
@@ -83,9 +114,10 @@ export async function loadNodesWithConfig() {
     // Merge: custom overrides base, preserving base defaults for missing fields
     const mergedNodes = {};
     Object.entries(baseNodes).forEach(([id, baseNode]) => {
+      let node;
       if (customNodes[id]) {
         // Merge custom with base
-        mergedNodes[id] = {
+        node = {
           id: baseNode.id,
           path: customNodes[id].path || baseNode.path,
           pathLabel: customNodes[id].pathLabel || baseNode.pathLabel,
@@ -96,8 +128,32 @@ export async function loadNodesWithConfig() {
         };
       } else {
         // No customization, use base as-is
-        mergedNodes[id] = baseNode;
+        node = { ...baseNode };
       }
+      
+      // Apply placeholder replacements to text fields
+      node.title = applyPlaceholders(node.title, config);
+      node.narrative = applyPlaceholders(node.narrative, config);
+      node.pathLabel = applyPlaceholders(node.pathLabel, config);
+      
+      // Apply to resources
+      if (node.resources) {
+        node.resources = node.resources.map(r => ({
+          ...r,
+          label: applyPlaceholders(r.label, config),
+          why: applyPlaceholders(r.why, config)
+        }));
+      }
+      
+      // Apply to choices
+      if (node.choices) {
+        node.choices = node.choices.map(c => ({
+          ...c,
+          label: applyPlaceholders(c.label, config)
+        }));
+      }
+      
+      mergedNodes[id] = node;
     });
     
     return mergedNodes;

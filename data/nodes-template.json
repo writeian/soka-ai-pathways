@@ -7,9 +7,9 @@
     "narrative": "You are preparing an upper-level interdisciplinary seminar at {{institution}}, but you're facing a challenge. Since you last taught it, students' study habits have changed. Now they are accustomed to using ChatGPT and other generative AI tools. You know most use it for brainstorming and finding sources, but the international students rely on it heavily for translation. Additionally, you suspect some students use it for writing and have been able to avoid AI detection tools by using \"humanizers\" and other methods designed to evade detection. As you outline the syllabus, you consider how each possible stance on AI could cultivate {{institution_short}}'s values, including leadership in {{value1}}, {{value2}}, and {{value3}}. As you always ask when designing a course: How can you instill the excitement of your advanced topic and encourage students to use its knowledge to live virtuous and {{value4}}? You consider five positions: 1) ignoring the issue and deferring decisions; 2) prohibiting AI outright; 3) allowing limited, ethical AI use; 4) permitting AI to support much of the work; and 5) designing the course to collaborate with students using AI tools. Each, you realize, involves risks and rewards. What will you choose?",
     "resources": [
       {
-        "label": "{{mission_label}}",
-        "url": "{{mission_url}}",
-        "why": "Ground course goals in {{institution_short}}'s mission."
+        "label": "Soka University Mission",
+        "url": "https://www.soka.edu/about/suas-heritage/mission-and-values",
+        "why": "Ground course goals in SUA's mission."
       }
     ],
     "choices": [
@@ -53,8 +53,8 @@
         "why": "Systemic risk of neglecting AI and avoiding difficult conversations."
       },
       {
-        "label": "{{institution_short}} Academic Honesty Policy",
-        "url": "{{integrity_url}}",
+        "label": "SUA Academic Honesty Policy",
+        "url": "https://catalog.soka.edu/academic-honesty",
         "why": "Baseline institutional policy."
       }
     ],
@@ -112,8 +112,8 @@
         "why": "Empirical study showing AI detectors disproportionately affect non-native English speakers."
       },
       {
-        "label": "{{institution_short}} Academic Honesty Policy",
-        "url": "{{integrity_url}}",
+        "label": "SUA Academic Honesty Policy",
+        "url": "https://catalog.soka.edu/academic-honesty",
         "why": "Institutional grounding for integrity."
       }
     ],
@@ -201,7 +201,7 @@
     "path": "prohibitive",
     "pathLabel": "Prohibitive",
     "title": "Outcome: Integrity Preserved, Dialogue Lost?",
-    "narrative": "By the end of your course, your records show near-perfect compliance. But course evaluations describe your class as \"serious, but tense\" and one student remarks \"I had trouble dismantling all the tools, like the automatic grammar checker and I don't think all of my classmates turned theirs off.\" You reflect: was integrity upheld, or did you and your students play \"cat and mouse\" all semester, distracting from the excitement you have previously shared in your field? Have your choices supported {{institution_possessive}} vision of graduates leading ethical lives?",
+    "narrative": "By the end of your course, your records show near-perfect compliance. But course evaluations describe your class as \"serious, but tense\" and one student remarks \"I had trouble dismantling all the tools, like the automatic grammar checker and I don't think all of my classmates turned theirs off.\" You reflect: was integrity upheld, or did you and your students play \"cat and mouse\" all semester, distracting from the excitement you have previously shared in your field? Have your choices supported {{institution_short}}'s vision of graduates leading ethical lives?",
     "resources": [
       {
         "label": "EdTech Magazine (2024) \u2014 Top IT Issues: Restoring Trust",
@@ -317,7 +317,7 @@
     "path": "balanced",
     "pathLabel": "Balanced / Literacy",
     "title": "Outcome: Ethical Clarity Through Dialogue",
-    "narrative": "By term's end, students submit reflective essays describing how AI shaped their thinking. Most express gratitude for being trusted to decide responsibly. A few still wish for simpler rules, but many highlight new awareness: \"I learned not just what AI can do \u2014 but what I can do with it.\" You guide them to name which SUA values their choices advanced: {{value1}}, culture, {{value3}}, or {{value4}}. You sense the course has fostered something deeper than compliance: wisdom linked to mission.",
+    "narrative": "By term's end, students submit reflective essays describing how AI shaped their thinking. Most express gratitude for being trusted to decide responsibly. A few still wish for simpler rules, but many highlight new awareness: \"I learned not just what AI can do \u2014 but what I can do with it.\" You guide them to name which {{institution_short}} values their choices advanced: {{value1}}, culture, {{value3}}, or {{value4}}. You sense the course has fostered something deeper than compliance: wisdom linked to mission.",
     "resources": [
       {
         "label": "Wageningen University \u2014 In AI We Trust?",
@@ -404,7 +404,7 @@
     "path": "embracing",
     "pathLabel": "AI\u2011Embracing",
     "title": "The Assessment Challenge",
-    "narrative": "Grading portfolios takes longer than expected. You realize authentic work requires new evaluation criteria, and growth, insight, and self-reflection now matter more than grammar or format. A peer asks, \"Isn't this subjective?\" You reply, \"Maybe, but so is learning.\" By mid-semester, students begin referencing AI critically in discussions about ethics, bias, and creativity, connecting the seminar to {{institution_possessive}} vision of graduates leading {{value4}}.",
+    "narrative": "Grading portfolios takes longer than expected. You realize authentic work requires new evaluation criteria, and growth, insight, and self-reflection now matter more than grammar or format. A peer asks, \"Isn't this subjective?\" You reply, \"Maybe, but so is learning.\" By mid-semester, students begin referencing AI critically in discussions about ethics, bias, and creativity, connecting the seminar to Soka's vision of graduates leading {{value4}}.",
     "resources": [
       {
         "label": "OECD \u2014 AI and Education and Skills",
@@ -419,7 +419,7 @@
     ],
     "choices": [
       {
-        "label": "Partner with the {{research_center}}",
+        "label": "Partner with the Pacific Basin Research Center",
         "to": "E3B"
       },
       {
@@ -433,7 +433,7 @@
     "path": "embracing",
     "pathLabel": "AI\u2011Embracing",
     "title": "Outcome: Innovation and Depth",
-    "narrative": "At semester's end, students present reflective projects titled \"What I Learned From My AI Mistakes.\" Their work is messy, honest, and profound. Some still rely too much on the tool, but most articulate a clearer sense of authorship. You feel both exhausted and inspired. When you share at a {{writing_center}} AI workshop, a colleague says, \"This feels like the future of {{institution_short}} education: humanistic, creative, responsible.\" Another confides later on that he doesn't have the time and hasn't gotten the training to repeat your experiment in his course.",
+    "narrative": "At semester's end, students present reflective projects titled \"What I Learned From My AI Mistakes.\" Their work is messy, honest, and profound. Some still rely too much on the tool, but most articulate a clearer sense of authorship. You feel both exhausted and inspired. When you share at a {{writing_center}} AI workshop, a colleague says, \"This feels like the future of Soka education: humanistic, creative, responsible.\" Another confides later on that he doesn't have the time and hasn't gotten the training to repeat your experiment in his course.",
     "resources": [
       {
         "label": "EDUCAUSE Review (2025) \u2014 A More Human University",
@@ -504,8 +504,8 @@
         "why": "Scaling deep, individualized, metacognitive learning with AI."
       },
       {
-        "label": "{{institution_short}} Institute for Global Solutions",
-        "url": "{{institution_institute_url}}",
+        "label": "Soka Institute for Global Solutions",
+        "url": "https://sigs.soka.edu/",
         "why": "SIGS projects for global cooperation embodying collaborative spirit."
       }
     ],
@@ -583,11 +583,11 @@
     "path": "shared",
     "pathLabel": "Meta\u2011Reflection",
     "title": "Teaching for Value Creation in the AI Era",
-    "narrative": "As you moved through the pathways, you balanced integrity, creativity, equity, and trust under real constraints. Summarize what you protected, what you risked, and what you learned. Then, connect those insights to {{institution_short}}'s mission of humanistic, contributive education. What is one concrete next step you will take to integrate these lessons into your next seminar's design, assessment, or dialogue? Thank you for participating in {{institution_short}} AI Pathways Explorer!",
+    "narrative": "As you moved through the pathways, you balanced integrity, creativity, equity, and trust under real constraints. Summarize what you protected, what you risked, and what you learned. Then, connect those insights to {{institution_short}}'s mission of humanistic, contributive education. What is one concrete next step you will take to integrate these lessons into your next seminar's design, assessment, or dialogue? Thank you for participating in Soka AI Pathways Explorer!",
     "resources": [
       {
-        "label": "{{mission_label}}",
-        "url": "{{mission_url}}",
+        "label": "SUA Mission and Values",
+        "url": "https://www.soka.edu/about/suas-heritage/mission-and-values",
         "why": "Anchor reflections in founding principles."
       }
     ],
@@ -606,8 +606,8 @@
     "narrative": "You anchor the seminar in a human-rights case study drawn from the Pacific Basin. Teams map how AI could support research, storytelling, or advocacy, documenting risks to dignity and accuracy. Students connect decisions to {{institution_short}}'s founding principle of upholding human rights. Debate runs hot when one team argues AI translation could amplify marginalized voices faster.",
     "resources": [
       {
-        "label": "{{research_center}}",
-        "url": "{{research_center_url}}",
+        "label": "Pacific Basin Research Center",
+        "url": "https://www.soka.edu/academics/research/pacific-basin-research-center/about",
         "why": "PBRC's mission for humanistic development and human rights in Asia-Pacific."
       },
       {
@@ -635,8 +635,8 @@
     "narrative": "A Student Fellow from the {{research_center}} asks if your seminar could help her co-create narratives for a justice campaign. Students debate whether to use AI for rapid translation and story drafts. Some argue it could amplify marginalized voices; others worry about accuracy and consent. You remind them of the need to balance efficiency with respect and accuracy.",
     "resources": [
       {
-        "label": "{{research_center}}",
-        "url": "{{research_center_url}}",
+        "label": "Pacific Basin Research Center",
+        "url": "https://www.soka.edu/academics/research/pacific-basin-research-center/about",
         "why": "PBRC's mission for peaceful, humanistic development of Asia-Pacific region."
       },
       {
@@ -679,8 +679,8 @@
         "why": "AI can improve storytelling, but only if used well."
       },
       {
-        "label": "University {{writing_center}}",
-        "url": "{{writing_center_url}}",
+        "label": "University Writing Center",
+        "url": "https://catalog.soka.edu/university-writing-center",
         "why": "Writing support for ethical narrative practices."
       }
     ],

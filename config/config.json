@@ -3,7 +3,9 @@
   "institution": {
     "name": "Soka University of America",
     "shortName": "SUA",
-    "missionUrl": "https://www.soka.edu/about/suas-heritage/mission-and-values"
+    "possessive": "Soka's",
+    "missionUrl": "https://www.soka.edu/about/suas-heritage/mission-and-values",
+    "missionLinkLabel": "Soka University Mission"
   },
   "branding": {
     "primaryColor": "#0048B7",
