@@ -61,24 +61,41 @@ This kit allows you to customize the AI Pathways Explorer for your own instituti
 
 ### 3. Generate Configuration Files
 
+**First, install dependencies from the project root:**
+
 #### For Mac/Linux:
 ```bash
-cd /path/to/customization-kit
+# From the repository root (where package.json is located)
+cd /path/to/soka-ai-pathways-site
 npm install
-node ../scripts/apply-config.mjs AI-Explorer-Customization.xlsx
+
+# Then run the generator (it will find your workbook in customization-kit/)
+npm run generate
 ```
 
 #### For Windows:
 ```cmd
-cd C:\path\to\customization-kit
+# From the repository root
+cd C:\path\to\soka-ai-pathways-site
 npm install
-node ..\scripts\apply-config.mjs AI-Explorer-Customization.xlsx
+
+# Run the generator
+npm run generate
 ```
 
-**Output:**
-- `output/config.json` - Your branding configuration
-- `output/custom-nodes.json` - Your content customizations  
-- `output/validation-report.txt` - Any errors or warnings
+**Note:** The generator automatically looks for `customization-kit/AI-Explorer-Customization.xlsx`
+
+**⚡ Quick Alternative - All-in-One Script:**
+```bash
+# From repository root (Mac/Linux only)
+bash customization-kit/generate.sh
+```
+This script handles `npm install` + generation + validation automatically!
+
+**Output (in `customization-kit/output/`):**
+- `config.json` - Your branding configuration
+- `custom-nodes.json` - Your content customizations  
+- `validation-report.txt` - Any errors or warnings
 
 ### 4. Review Validation Report
 
@@ -91,18 +108,39 @@ Open `output/validation-report.txt` and fix any errors:
 ### 5. Test Locally (Optional but Recommended)
 
 ```bash
-# Copy generated files to project
-cp output/config.json ../config/
-cp output/custom-nodes.json ../data/
+# From repository root - copy generated files
+cp customization-kit/output/config.json config/
+cp customization-kit/output/custom-nodes.json data/
 
 # Run local server
-cd ..
 python3 -m http.server 8000
 ```
 
 Visit `http://localhost:8000` to preview your customized site.
 
+**⚡ Quick Alternative - Helper Script:**
+```bash
+# From repository root (Mac/Linux only)
+bash customization-kit/test-local.sh
+```
+Automatically copies files and starts server!
+
+**To revert back to Soka defaults for testing:**
+```bash
+cp config/config-soka.json config/config.json
+rm data/custom-nodes.json
+```
+
 ### 6. Deploy to GitHub Pages
+
+**⚡ Quick Method - Helper Script (Mac/Linux):**
+```bash
+# From repository root
+bash customization-kit/deploy.sh
+```
+Automatically copies files, commits, and pushes to GitHub!
+
+**Manual Method:**
 
 **Option A: Web Interface** (Easier)
 1. Go to your GitHub repository
@@ -185,4 +223,5 @@ MIT License - Feel free to adapt for your institution.
 
 **Original:** Created by Soka University of America  
 **Customized by:** [Your Institution Name]
+
 
