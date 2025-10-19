@@ -1,13 +1,13 @@
 {
   "version": "1.0",
   "institution": {
-    "name": "Soka University of America",
+    "name": "TEST UNIVERSITY",
     "shortName": "SUA",
     "missionUrl": "https://www.soka.edu/about/suas-heritage/mission-and-values"
   },
   "branding": {
-    "primaryColor": "#0048B7",
-    "accentColor": "#FCD43B",
+    "primaryColor": "#DC2626",
+    "accentColor": "#F97316",
     "pathwayColors": {
       "ignore": "#F3F4F6",
       "prohibitive": "#001D61",
@@ -50,5 +50,3 @@
     "workshopYear": 2025
   }
 }
-
-
