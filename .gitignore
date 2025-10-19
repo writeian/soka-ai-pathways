@@ -4,6 +4,12 @@ brand-assets/
 # Archive (temporary files)
 archive/
 
+# Node modules
+node_modules/
+
+# Generated output
+customization-kit/output/
+
 # macOS
 .DS_Store
 
