@@ -60,6 +60,7 @@ class UserTracker {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
+          type: 'visit',
           userId: user.id,
           userName: user.name || 'Anonymous',
           nodeId,
@@ -71,6 +72,33 @@ class UserTracker {
     } catch (error) {
       // Silently fail - don't interrupt user experience
       console.log('Analytics error (non-critical):', error);
+    }
+  }
+
+  async submitReflection(protected, risked, learned, nextStep) {
+    const user = this.getUser();
+    
+    try {
+      await fetch(this.webhookUrl, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          type: 'reflection',
+          userId: user.id,
+          userName: user.name || 'Anonymous',
+          protected,
+          risked,
+          learned,
+          nextStep
+        })
+      });
+      return true;
+    } catch (error) {
+      console.log('Reflection submission error:', error);
+      return false;
     }
   }
 

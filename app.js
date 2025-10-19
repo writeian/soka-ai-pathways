@@ -136,6 +136,40 @@ function renderNode(node, trail=''){
           </ul>
         </section>` : ''}
 
+      ${node.id === 'R1' ? `
+        <section class="mt-8 bg-soka-yellow bg-opacity-10 border-2 border-soka-yellow rounded-xl p-6">
+          <h2 class="font-serif text-2xl font-semibold text-soka-blue mb-4">📝 Share Your Reflection (Optional)</h2>
+          <p class="text-gray-700 mb-6">Help us improve this workshop by sharing your insights. Your response will be sent to the workshop organizers.</p>
+          
+          <div id="reflection-form" class="space-y-4">
+            <div>
+              <label class="block font-medium text-gray-700 mb-2">What did you protect?</label>
+              <textarea id="protected" rows="2" class="w-full px-4 py-2 border-2 border-gray-300 rounded-lg focus:border-soka-blue focus:outline-none" placeholder="e.g., Academic integrity, student trust..."></textarea>
+            </div>
+            <div>
+              <label class="block font-medium text-gray-700 mb-2">What did you risk?</label>
+              <textarea id="risked" rows="2" class="w-full px-4 py-2 border-2 border-gray-300 rounded-lg focus:border-soka-blue focus:outline-none" placeholder="e.g., Student engagement, workload..."></textarea>
+            </div>
+            <div>
+              <label class="block font-medium text-gray-700 mb-2">What did you learn?</label>
+              <textarea id="learned" rows="2" class="w-full px-4 py-2 border-2 border-gray-300 rounded-lg focus:border-soka-blue focus:outline-none" placeholder="e.g., The importance of dialogue..."></textarea>
+            </div>
+            <div>
+              <label class="block font-medium text-gray-700 mb-2">What is one concrete next step?</label>
+              <textarea id="nextStep" rows="2" class="w-full px-4 py-2 border-2 border-gray-300 rounded-lg focus:border-soka-blue focus:outline-none" placeholder="e.g., Add AI literacy unit to my syllabus..."></textarea>
+            </div>
+            <button id="submit-reflection" class="w-full px-6 py-3 bg-soka-blue text-white rounded-xl hover:bg-blue-800 font-medium shadow-sm hover:shadow-md transition-all">
+              Submit Reflection
+            </button>
+          </div>
+          
+          <div id="reflection-thanks" class="hidden text-center py-8">
+            <div class="text-6xl mb-4">✅</div>
+            <h3 class="font-serif text-2xl font-bold text-soka-blue mb-2">Thank You!</h3>
+            <p class="text-gray-700">Your reflection has been recorded.</p>
+          </div>
+        </section>` : ''}
+
       <section class="mt-8">
         <h2 class="font-serif text-xl font-semibold text-soka-blue mb-4">Choose Your Path</h2>
         <div class="grid gap-3">
@@ -163,6 +197,36 @@ function renderNode(node, trail=''){
   const heading = document.getElementById('page-title');
   if (heading) {
     heading.focus();
+  }
+
+  // Add reflection form handler for R1
+  if (node.id === 'R1') {
+    const submitBtn = document.getElementById('submit-reflection');
+    if (submitBtn) {
+      submitBtn.onclick = async () => {
+        const protected = document.getElementById('protected').value;
+        const risked = document.getElementById('risked').value;
+        const learned = document.getElementById('learned').value;
+        const nextStep = document.getElementById('nextStep').value;
+        
+        // At least one field must be filled
+        if (!protected && !risked && !learned && !nextStep) {
+          alert('Please fill in at least one reflection field.');
+          return;
+        }
+        
+        // Disable button during submission
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Submitting...';
+        
+        // Submit to Google Sheets
+        await tracker.submitReflection(protected, risked, learned, nextStep);
+        
+        // Show thank you message
+        document.getElementById('reflection-form').classList.add('hidden');
+        document.getElementById('reflection-thanks').classList.remove('hidden');
+      };
+    }
   }
 }
 
