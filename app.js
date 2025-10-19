@@ -204,13 +204,13 @@ function renderNode(node, trail=''){
     const submitBtn = document.getElementById('submit-reflection');
     if (submitBtn) {
       submitBtn.onclick = async () => {
-        const protected = document.getElementById('protected').value;
-        const risked = document.getElementById('risked').value;
-        const learned = document.getElementById('learned').value;
-        const nextStep = document.getElementById('nextStep').value;
+        const protectedVal = document.getElementById('protected').value;
+        const riskedVal = document.getElementById('risked').value;
+        const learnedVal = document.getElementById('learned').value;
+        const nextStepVal = document.getElementById('nextStep').value;
         
         // At least one field must be filled
-        if (!protected && !risked && !learned && !nextStep) {
+        if (!protectedVal && !riskedVal && !learnedVal && !nextStepVal) {
           alert('Please fill in at least one reflection field.');
           return;
         }
@@ -220,7 +220,7 @@ function renderNode(node, trail=''){
         submitBtn.textContent = 'Submitting...';
         
         // Submit to Google Sheets
-        await tracker.submitReflection(protected, risked, learned, nextStep);
+        await tracker.submitReflection(protectedVal, riskedVal, learnedVal, nextStepVal);
         
         // Show thank you message
         document.getElementById('reflection-form').classList.add('hidden');
