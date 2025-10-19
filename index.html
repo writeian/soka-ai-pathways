@@ -18,20 +18,30 @@
           fontFamily: {
             'serif': ['Playfair Display', 'Georgia', 'serif'],
             'sans': ['Inter', 'Arial', 'sans-serif']
-          },
-          colors: {
-            'soka-blue': '#0048B7',
-            'soka-yellow': '#FCD43B',
-            'deep-reflection': '#001D61',
-            'golden-saffron': '#FFE20D',
-            'global-green': '#249E6B',
-            'infinite-ocean': '#66B0FF'
           }
         }
       }
     }
   </script>
   <style>
+    :root {
+      --color-primary: #0048B7;
+      --color-accent: #FCD43B;
+      --color-ignore: #F3F4F6;
+      --color-prohibitive: #001D61;
+      --color-balanced: #FFE20D;
+      --color-embracing: #249E6B;
+      --color-collaborative: #66B0FF;
+    }
+    
+    /* Dynamic color hover effects */
+    .choice-button:hover {
+      background-color: var(--color-primary) !important;
+      color: white !important;
+    }
+    .hover-primary:hover {
+      color: var(--color-primary) !important;
+    }
     .badge { 
       border-radius: 9999px; 
       padding: 0.25rem 0.75rem; 
@@ -41,11 +51,11 @@
       letter-spacing: 0.05em;
     }
     .path-shared { background:#E5E7EB; color:#111827; }
-    .path-ignore { background:#F3F4F6; color:#6B7280; border: 1px solid #D1D5DB; } /* Neutral Gray */
-    .path-prohibitive { background:#001D61; color:#FFFFFF; } /* Deep Reflection */
-    .path-balanced { background:#FFE20D; color:#000000; } /* Golden Saffron */
-    .path-embracing { background:#249E6B; color:#FFFFFF; } /* Global Green */
-    .path-collaborative { background:#66B0FF; color:#000000; } /* Infinite Ocean */
+    .path-ignore { background:var(--color-ignore); color:#6B7280; border: 1px solid #D1D5DB; }
+    .path-prohibitive { background:var(--color-prohibitive); color:#FFFFFF; }
+    .path-balanced { background:var(--color-balanced); color:#000000; }
+    .path-embracing { background:var(--color-embracing); color:#FFFFFF; }
+    .path-collaborative { background:var(--color-collaborative); color:#000000; }
     /* Screen reader only content */
     .sr-only {
       position: absolute;
