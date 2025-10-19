@@ -60,14 +60,14 @@ export async function loadConfig() {
 
 export async function loadNodesWithConfig() {
   try {
-    // Load base nodes
+    // Load base nodes (current nodes.json)
     const baseResponse = await fetch('./nodes.json', { cache: 'no-store' });
     if (!baseResponse.ok) {
       throw new Error('Failed to load base nodes');
     }
     const baseNodes = await baseResponse.json();
     
-    // Try to load customizations
+    // Try to load customizations (optional)
     let customNodes = {};
     try {
       const customResponse = await fetch('./data/custom-nodes.json', { cache: 'no-store' });
@@ -80,18 +80,23 @@ export async function loadNodesWithConfig() {
       console.log('ℹ️  No custom nodes found, using base content');
     }
     
-    // Merge: custom overrides base
-    const mergedNodes = { ...baseNodes };
-    Object.entries(customNodes).forEach(([id, custom]) => {
-      if (mergedNodes[id]) {
-        // Merge, keeping base values for any missing fields
+    // Merge: custom overrides base, preserving base defaults for missing fields
+    const mergedNodes = {};
+    Object.entries(baseNodes).forEach(([id, baseNode]) => {
+      if (customNodes[id]) {
+        // Merge custom with base
         mergedNodes[id] = {
-          ...mergedNodes[id],
-          ...custom,
-          // Preserve base resources/choices if custom doesn't provide them
-          resources: custom.resources || mergedNodes[id].resources || [],
-          choices: custom.choices || mergedNodes[id].choices || []
+          id: baseNode.id,
+          path: customNodes[id].path || baseNode.path,
+          pathLabel: customNodes[id].pathLabel || baseNode.pathLabel,
+          title: customNodes[id].title || baseNode.title,
+          narrative: customNodes[id].narrative || baseNode.narrative,
+          resources: customNodes[id].resources || baseNode.resources || [],
+          choices: customNodes[id].choices || baseNode.choices || []
         };
+      } else {
+        // No customization, use base as-is
+        mergedNodes[id] = baseNode;
       }
     });
     
