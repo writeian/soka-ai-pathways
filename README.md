@@ -1,25 +1,43 @@
-# Soka AI Approaches Explorer
+# AI Pathways Explorer
 
-An interactive, choose-your-own-path experience exploring **four pedagogical approaches to AI in the classroom** at **Soka University of America**.
+An interactive, choose-your-own-path experience exploring **five pedagogical approaches to AI in the classroom**.
 
-Designed for the **2025 Faculty Workshop on AI in Education**.
+Originally designed for **Soka University of America**'s 2025 Faculty Workshop, now **customizable for any institution**.
+
+---
+
+## 🎯 Quick Start - Customize for Your Institution
+
+**Want to use this at your university?** Customize it in 20 minutes:
+
+**👉 [Use the Customization Template](https://docs.google.com/spreadsheets/d/16q3f9psLpRvti4WyzKw0Ffc4bynYFDaBQqhY-ggEQZ0/template/preview)**
+
+1. Click "Use Template" → Edit 14 fields (name, colors, values)
+2. Download as Excel → Run generator script
+3. Deploy to GitHub Pages → Share with faculty!
+
+**📖 [Full Customization Guide](./docs/Admin-Customization-System-Guide.md)** | **📋 [Step-by-Step Instructions](./customization-kit/README.md)**
+
+---
 
 ## Overview
 
 This interactive narrative helps faculty explore the tensions, trade-offs, and possibilities of different AI policies through realistic classroom scenarios. Each pathway offers distinct perspectives on integrity, creativity, equity, trust, and Soka's mission to foster wisdom, courage, and compassion.
 
-### Four Pathways
+### Five Pathways
 
-1. **🔴 Prohibitive** — Upholding integrity through AI restrictions
-2. **🟨 Balanced / Literacy** — Teaching ethical and reflective AI use
-3. **🟩 AI-Embracing** — Redesigning for creativity and metacognition
-4. **🔵 Collaborative** — Co-learning through dialogue and experimentation
+1. **⚪ Ignore / Minimal Intervention** — Deferring AI policy decisions
+2. **🔴 Prohibitive** — Upholding integrity through AI restrictions
+3. **🟨 Balanced / Literacy** — Teaching ethical and reflective AI use
+4. **🟩 AI-Embracing** — Redesigning for creativity and metacognition
+5. **🔵 Collaborative** — Co-learning through dialogue and experimentation
 
-Each pathway includes:
-- **17 narrative nodes** with realistic classroom dilemmas
-- **47 curated academic resources** (EDUCAUSE, UNESCO, Harvard GSE, OECD, Inside Higher Ed, and more)
+The explorer includes:
+- **23 interactive nodes** across 5 pathways with realistic classroom dilemmas
+- **54 curated academic resources** (EDUCAUSE, UNESCO, Harvard GSE, OECD, Inside Higher Ed, and more)
 - **Path-switching options** to explore different pedagogical pivots
-- **Meta-reflection endpoint** connecting outcomes to Soka's mission
+- **Meta-reflection endpoint** connecting outcomes to institutional mission
+- **Reflection form** to capture faculty insights
 
 ## Features
 - Single‑page app with hash routing (`/#node=...`), no backend

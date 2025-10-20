@@ -16,9 +16,21 @@ This kit allows you to customize the AI Pathways Explorer for your own instituti
 
 ## Step-by-Step Instructions
 
-### 1. Import CSV Files into Spreadsheet
+### 1. Get the Customization Workbook
 
-**Option A: Microsoft Excel**
+**🎯 EASIEST METHOD - Use the Google Sheets Template:**
+
+**👉 [Click here to use the template](https://docs.google.com/spreadsheets/d/16q3f9psLpRvti4WyzKw0Ffc4bynYFDaBQqhY-ggEQZ0/template/preview)**
+
+- Click the **"Use Template"** button
+- A copy is automatically created for you!
+- All 4 tabs ready to edit (Branding, Values, Resource Library, Nodes)
+- Pre-filled with Soka examples to guide you
+- **Skip to Step 2!**
+
+**Alternative - Build from CSV Files:**
+
+If you prefer Excel or need offline editing:
 1. Create new Excel workbook
 2. Create 4 sheets: `Branding`, `Values`, `Resource Library`, `Nodes`
 3. In each sheet: **Data → From Text/CSV** → import corresponding CSV file
@@ -27,13 +39,6 @@ This kit allows you to customize the AI Pathways Explorer for your own instituti
    - Import `03-Resource-Library.csv` into "Resource Library" sheet
    - Import `04-Nodes.csv` into "Nodes" sheet
 4. Save as `AI-Explorer-Customization.xlsx`
-
-**Option B: Google Sheets**
-1. Create new Google Sheet
-2. Create 4 sheets (tabs) with names above
-3. In each sheet: **File → Import → Upload** → select CSV → **Replace current sheet**
-4. Repeat for all 4 CSVs
-5. Keep it named `AI-Explorer-Customization`
 
 ### 2. Customize Your Content
 
