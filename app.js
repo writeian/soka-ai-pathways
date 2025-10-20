@@ -117,7 +117,9 @@ function renderNode(node, trail=''){
           <div class="mt-1">Visits: ${tracker.getJourney().length}</div>
         </div>
       </header>
-      <p class="text-lg leading-relaxed text-gray-700">${node.narrative}</p>
+      <div class="text-lg leading-relaxed text-gray-700 space-y-4">
+        ${node.narrative.split('\n\n').map(para => `<p>${para}</p>`).join('')}
+      </div>
 
       ${node.resources && node.resources.length ? `
         <section class="mt-8">
