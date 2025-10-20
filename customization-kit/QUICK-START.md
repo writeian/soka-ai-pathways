@@ -3,14 +3,63 @@
 
 ---
 
+## 📖 What Is This?
+
+The **AI Pathways Explorer** is an interactive, choose-your-own-path tool that helps faculty navigate the complex decisions around AI in the classroom. Through realistic scenarios, faculty experience five different pedagogical approaches—from ignoring AI entirely to fully embracing it—and reflect on how their choices align with institutional values.
+
+Originally created for Soka University of America's 2025 Faculty Workshop, it's now **fully customizable** for any institution.
+
+---
+
+## 🎯 Goals
+
+This tool helps faculty:
+- **Explore trade-offs** between integrity, creativity, equity, and trust
+- **Experience realistic dilemmas** through first-person narratives  
+- **Access curated resources** - 54 academic articles from EDUCAUSE, UNESCO, Harvard, etc.
+- **Reflect on mission alignment** - Connect AI decisions to institutional values
+- **Make informed choices** - Understand consequences before implementing policies
+
+Perfect for:
+- Faculty development workshops
+- Teaching and learning centers
+- Department meetings on AI policy
+- Individual faculty reflection
+
+---
+
+## ⚙️ How It Works
+
+**For Faculty Using the Tool:**
+1. Start with a dilemma: How should I handle AI in my course?
+2. Choose a pedagogical approach (Ignore, Prohibit, Balance, Embrace, Collaborate)
+3. Progress through 4-5 realistic classroom scenarios
+4. Access academic resources at each step
+5. Switch pathways if approach isn't working
+6. End with meta-reflection on institutional values
+
+**For You (Customizing It):**
+1. Edit a Google Sheets template (14 fields: name, colors, values)
+2. Download and run a generator script
+3. Deploy to your GitHub Pages
+4. Share with your faculty!
+
+**Result:** A professional, branded tool that looks like it was built specifically for your institution.
+
+---
+
 ## 🎯 What You'll Get
 
-A fully-branded AI pedagogy explorer for your institution:
-- Your colors, your mission, your values
-- 23 interactive scenarios
-- 54 academic resources
-- Professional design
-- Free to use and share
+After customization, your institution will have:
+- ✅ Fully-branded site with your colors and logo styling
+- ✅ Your institution name throughout all narratives
+- ✅ Your mission and values integrated into reflections
+- ✅ Links to your writing center, research centers, policies
+- ✅ 23 interactive decision points
+- ✅ 54 curated academic resources
+- ✅ Professional design (mobile-responsive)
+- ✅ Faculty reflection tracking (optional)
+- ✅ Free to use, modify, and share (MIT License)
 
 ---
 
