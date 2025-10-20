@@ -64,6 +64,13 @@ If you prefer Excel or need offline editing:
 - Each row is one node (D1, I1, P1, etc.)
 - Wide spreadsheet - scroll right to see all columns
 
+**💡 Adding Paragraph Breaks:**
+- To add a line break within a narrative cell:
+  - **Mac:** Press **Option + Return** (⌥ + Enter)
+  - **Windows:** Press **Alt + Enter**
+- For paragraph breaks (visible spacing): Press **twice** to create blank line
+- Example: "Text paragraph 1[Option+Return][Option+Return]Text paragraph 2"
+
 ### 3. Generate Configuration Files
 
 **First, install dependencies from the project root:**
